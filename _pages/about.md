@@ -20,4 +20,4 @@ Currently I am working with Prof. [Yanan Sui](https://www.yanansui.com/) and Pro
 
 ## News
 
-- **Feb 23, 2021**: I received an Ph.D. offer from MIT!
+- **Feb 23, 2021**: I received a Ph.D. offer from MIT!
