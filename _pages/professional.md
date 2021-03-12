@@ -7,4 +7,4 @@ author_profile: true
 
 ## Teaching Assistant
 
-- **Feb, 2021 - Now**: Teaching Assistant of the X-idea Course.
+- **Feb, 2021 - Now**: Chief Teaching Assistant of the X-idea Course at Tsinghua University.
