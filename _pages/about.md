@@ -23,6 +23,5 @@ I am a member of [REALM](http://realm.mit.edu/) lab led by Professor [Chuchu Fan
 
 - **Oct 05, 2021**: [Code](https://github.com/Stanford-ILIAD/Confidence-Aware-Imitation-Learning) released for NeurIPS 2021 paper: S Zhang, Z Cao, D Sadigh, Y Sui: "Confidence-Aware Imitation Learning from Demonstrations with Varying Optimality". 
 - **Sep 28, 2021**: NeurIPS 2021 paper accepted: S Zhang, Z Cao, D Sadigh, Y Sui: "Confidence-Aware Imitation Learning from Demonstrations with Varying Optimality" 
-
 - **Aug 27, 2021**: First day in our lab at MIT physically! 
 - **Feb 23, 2021**: I received an offer from MIT!
