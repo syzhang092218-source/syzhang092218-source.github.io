@@ -16,8 +16,8 @@ author_profile: true
         background-color: #70ad47;
         border: none;
         color: white;
-        padding: 0px 6px;
-        font-size: 12px;
+        padding: 0px 8px;
+        font-size: 14px;
         cursor: pointer;
         border-radius: 15%;
 	}
@@ -35,24 +35,26 @@ author_profile: true
 	}
 </style>
 <p>
-  <img src="https://syzhang092218-source.github.io/files/CAIL_framework.png?raw=true" alt="Photo" style="width: 200px;" hspace="5" vspace="5" align="right"/> 
+  <img src="https://syzhang092218-source.github.io/files/CAIL_framework.png?raw=true" alt="Photo" style="width: 350px;" hspace="5" vspace="5" align="right"/> 
+    <b>
+        Confidence-Aware Imitation Learning from Demonstrations with Varying Optimality
+    </b>
+    <br>
+    	Songyuan Zhang*, Zhangjie Cao*, Dorsa Sadigh, Yanan Sui
+    <br>
+    <i>
+        Conference on Neural Information Processing Systems (NeurIPS), December 2021
+    </i>
     <p>
-        <b>
-            Confidence-Aware Imitation Learning from Demonstrations with Varying Optimality
-        </b>
-        <br>
-        Songyuan Zhang*, Zhangjie Cao*, Dorsa Sadigh, Yanan Sui
-        <br>
-        <i>
-            Conference on Neural Information Processing Systems (NeurIPS), December 2021
-        </i>
+        <a href="https://github.com/Stanford-ILIAD/Confidence-Aware-Imitation-Learning/">
+       		<button class="btn">
+    		<i class="fa fa-code">
+    		</i>
+    		Code
+    		</button>
+    	</a>
     </p>
-    <a href="https://github.com/Stanford-ILIAD/Confidence-Aware-Imitation-Learning/">
-       <button class="btn">
-    	<i class="fa fa-code">
-    	</i>
-    	Code
-    	</button>
-    </a>
 </p>
+
+
 
