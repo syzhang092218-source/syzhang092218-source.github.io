@@ -35,7 +35,7 @@ author_profile: true
 	}
 </style>
 <p>
-  <img src="https://syzhang092218-source.github.io/files/CAIL_framework?raw=true" alt="Photo" style="width: 200px;" hspace="5" vspace="5" align="right"/> 
+  <img src="https://syzhang092218-source.github.io/files/CAIL_framework.pdf?raw=true" alt="Photo" style="width: 200px;" hspace="5" vspace="5" align="right"/> 
     <p>
         <b>
             Confidence-Aware Imitation Learning from Demonstrations with Varying Optimality
@@ -51,7 +51,6 @@ author_profile: true
 		<a href="https://github.com/Stanford-ILIAD/Confidence-Aware-Imitation-Learning/"
        		<button class="btn">
         		<i class="fa fa-code">
-                    ::before
         		</i>
         		Code
         	</button>
