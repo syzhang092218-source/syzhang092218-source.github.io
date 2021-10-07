@@ -35,7 +35,7 @@ author_profile: true
 	}
 </style>
 <p>
-  <img src="https://syzhang092218-source.github.io/files/CAIL_framework.pdf?raw=true" alt="Photo" style="width: 200px;" hspace="5" vspace="5" align="right"/> 
+  <img src="https://syzhang092218-source.github.io/files/CAIL_framework.png?raw=true" alt="Photo" style="width: 200px;" hspace="5" vspace="5" align="right"/> 
     <p>
         <b>
             Confidence-Aware Imitation Learning from Demonstrations with Varying Optimality
@@ -47,14 +47,12 @@ author_profile: true
             Conference on Neural Information Processing Systems (NeurIPS), December 2021
         </i>
     </p>
-    <p>
-		<a href="https://github.com/Stanford-ILIAD/Confidence-Aware-Imitation-Learning/"
-       		<button class="btn">
-        		<i class="fa fa-code">
-        		</i>
-        		Code
-        	</button>
-		</a>
-    </p>
+    <a href="https://github.com/Stanford-ILIAD/Confidence-Aware-Imitation-Learning/">
+       <button class="btn">
+    	<i class="fa fa-code">
+    	</i>
+    	Code
+    	</button>
+    </a>
 </p>
 
