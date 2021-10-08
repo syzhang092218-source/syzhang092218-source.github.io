@@ -19,7 +19,7 @@ author_profile: true
         padding: 0px 8px;
         font-size: 14px;
         cursor: ;
-        border-radius: 15%;
+        border-radius: 30%;
 	}
     .fa {
         display: inline-block;
@@ -48,9 +48,6 @@ author_profile: true
     <p>
         <a href="https://github.com/Stanford-ILIAD/Confidence-Aware-Imitation-Learning/">
        		<button class="btn">
-    		<i class="fa fa-code">
-		    ::before
-    		</i>
     		Code
     		</button>
     	</a>
