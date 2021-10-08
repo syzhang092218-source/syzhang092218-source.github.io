@@ -49,6 +49,7 @@ author_profile: true
         <a href="https://github.com/Stanford-ILIAD/Confidence-Aware-Imitation-Learning/">
        		<button class="btn">
     		<i class="fa fa-code">
+		    ::before
     		</i>
     		Code
     		</button>
