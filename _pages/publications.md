@@ -5,20 +5,20 @@ permalink: /publications/
 author_profile: true
 ---
 
-{% if author.googlescholar %}
-  You can also find my articles on <u><a href="{{author.googlescholar}}">my Google Scholar profile</a>.</u>
+{% if .googlescholar %}
+  You can also find my articles on <u><a href="{{.googlescholar}}">my Google Scholar profile</a>.</u>
 {% endif %}
 
 ## Conference Paper
 
 <style>
     .btn {
-        background-color: #70ad47;
+        background-color: #005395;
         border: none;
         color: white;
         padding: 0px 8px;
         font-size: 14px;
-        cursor: pointer;
+        cursor: ;
         border-radius: 15%;
 	}
     .fa {
