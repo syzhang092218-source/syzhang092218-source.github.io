@@ -46,7 +46,7 @@ author_profile: true
         Conference on Neural Information Processing Systems (NeurIPS), December 2021
     </i>
     <p>
-	<a href="https://https://sites.google.com/view/cail//">
+	<a href="https://sites.google.com/view/cail/">
        		<button class="btn">
     		Website
     		</button>
