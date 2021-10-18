@@ -47,14 +47,7 @@ author_profile: true
     </i>
     <p>
 	<a href="https://sites.google.com/view/cail/">
-       		<button class="btn">
-    		Website
-    		</button>
-    	</a>
-        <a href="https://github.com/Stanford-ILIAD/Confidence-Aware-Imitation-Learning/">
-       		<button class="btn">
-    		Code
-    		</button>
+    	    [Website]
     	</a>
     </p>
 </p>
