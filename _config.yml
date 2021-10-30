@@ -83,7 +83,7 @@ analytics:
 author:
   name             : "Songyuan Zhang"
   avatar           : "professional_1224x1633.jpg"
-  bio              : "First year graduate student at REALM lab, MIT"
+  bio              : "First-year graduate student at REALM lab, MIT"
   location         : "Cambridge, Massachusetts, USA"
   employer         :
   pubmed           : 
@@ -110,11 +110,11 @@ author:
   stackoverflow    : # http://stackoverflow.com/users/123456/username
   steam            :
   tumblr           :
-  twitter          : #"replacethistwitterhandle"
+  twitter          : @syzhang092218
   vine             :
   weibo            :
   xing             :
-  youtube          :
+  youtube          : https://www.youtube.com/channel/UCchgf5HNEywGBLN_rGT4joA
   wikipedia        :
 
 
@@ -256,7 +256,7 @@ sass:
 permalink: /:categories/:title/
 # paginate: 5 # amount of posts to show
 # paginate_path: /page:num/
-timezone: America/Los_Angeles # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone: America/New_York # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 
 # Plugins
