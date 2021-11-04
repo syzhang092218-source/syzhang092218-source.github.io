@@ -18,5 +18,5 @@ My girlfriend is in the Department of Electrical Engineering at Tsinghua Univers
 
 
 
-<img src="https://syzhang092218-source.github.io/files/IMG2630.jpg?raw=true" alt="Photo" align="middle"/>
+<img src="https://syzhang092218-source.github.io/files/IMG_2630.JPG?raw=true" alt="Photo" align="middle" style="zoom: 10%;"/>
 
