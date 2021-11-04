@@ -16,3 +16,7 @@ Email: szhang21@mit.edu
 
 My girlfriend is in the Department of Electrical Engineering at Tsinghua University. Click [here](https://tongxiao2000.github.io) to see her homepage.
 
+
+
+<img src="https://syzhang092218-source.github.io/files/IMG2630.jpg?raw=true" alt="Photo" align="middle"/>
+

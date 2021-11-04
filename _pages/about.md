@@ -16,7 +16,7 @@ redirect_from:
 
 I am a member of [REALM](http://realm.mit.edu/) lab led by Professor [Chuchu Fan](https://chuchu.mit.edu/). Previously, I have been working on learning from suboptimal demonstrations with Prof. [Yanan Sui](https://www.yanansui.com/) and Prof. [Dorsa Sadigh](https://dorsa.fyi/), developing clustering algorithms with Prof. [Hao Wu](https://haowu1983.github.io/), developing planning algorithms for autonomous driving with Prof. [Masayoshi Tomizuka](https://msc.berkeley.edu/people/tomizuka.html), as well as building medical robots with Prof. Gangtie Zheng. 
 
-Besides research, I enjoy traveling, photography, and running. 
+Besides research, I enjoy traveling, photography, and running. I am also a Gryffindor!
 
 
 
