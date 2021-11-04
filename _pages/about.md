@@ -8,9 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-```
---- After all this time? Always
-```
+> --- After all this time? Always.
 
 <p>
   <img src="https://syzhang092218-source.github.io/files/syzhang.jpg?raw=true" alt="Photo" style="width: 200px;" hspace="5" vspace="5" align="left"/> 
