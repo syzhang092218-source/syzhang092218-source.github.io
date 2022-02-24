@@ -9,4 +9,6 @@ redirect_from:
 
 {% include base_path %}
 
-My Curriculum Vitae when applying for Ph.D. programs: [pdf](https://syzhang092218-source.github.io/files/CV_Songyuan_Zhang_PhD.pdf)
+My up-to-date Curriculum Vitae (last update: 02/24/2022): [[pdf]](https://syzhang092218-source.github.io/files/CV/CV_Songyuan_Zhang.pdf)
+
+My Curriculum Vitae when applying for Ph.D. programs: [[pdf]](https://syzhang092218-source.github.io/files/CV_Songyuan_Zhang_PhD.pdf)

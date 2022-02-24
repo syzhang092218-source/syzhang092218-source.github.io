@@ -1,0 +1,126 @@
+\documentclass{resume} % Use the custom resume.cls style
+
+\usepackage[left=1in,top=1.3in,right=1in,bottom=1.3in]{geometry} % Document margins
+\usepackage{hyperref}
+\usepackage{etaremune}
+\usepackage[inline]{enumitem} 
+\usepackage{graphicx}
+\usepackage{tabularx}
+\pagestyle{plain}
+
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\fancyhf{}
+\rhead{Songyuan Zhang}
+\lhead{Curriculum Vitae}
+\rfoot{Page \thepage}
+
+\hypersetup{
+% 	bookmarks=true,         % show bookmarks bar?
+	unicode=false,          % non-Latin characters in Acrobat’s bookmarks
+	pdftoolbar=true,        % show Acrobat’s toolbar?
+	pdfmenubar=true,        % show Acrobat’s menu?
+	pdffitwindow=false,     % window fit to page when opened
+	pdfstartview={FitH},    % fits the width of the page to the window
+	pdftitle={Resume of Songyuan Zhang},    % title
+	pdfauthor={Songyuan Zhang},     % author
+	pdfsubject={Resume},   % subject of the document
+	pdfcreator={Songyuan Zhang},   % creator of the document
+	colorlinks=true,       % false: boxed links; true: colored links
+	linkcolor=blue,          % color of internal links (change box color with linkbordercolor)
+	citecolor=green,        % color of links to bibliography
+	filecolor=magenta,      % color of file links
+	urlcolor=blue           % color of external links
+}
+
+\newcommand{\tab}[1]{\hspace{.2667\textwidth}\rlap{#1}} 
+\newcommand{\itab}[1]{\hspace{0em}\rlap{#1}}
+\newcommand{\paperItem}[4]{#1.~``#2."~\textit{#3},~#4.}%author title venue year
+\newcommand{\talktitle}[1]{{``#1",}} %talk title
+\newcommand{\talkplace}[3]{{\textit{#1},~#2,~#3.}} % conference, place, time
+\newcommand{\confItem}[3]{#1~#2~(\textit{#3})} %abrrev, full name, year
+\newcommand{\patentItem}[3]{``#1",~#2,~#3.} % title, number, date
+
+\newcommand{\me}{\underline{Songyuan Zhang}}
+\newcommand{\meshort}{\textbf{S. Zhang}}
+\newcommand{\person}[2]{#1}
+
+\newcommand\sbullet[1][.5]{\mathbin{\vcenter{\hbox{\scalebox{#1}{$\bullet$}}}}}
+
+    
+\makeatletter
+% This command ignores the optional argument for itemize and enumerate lists
+\newcommand{\inlineitem}[1][]{%
+	\ifnum\enit@type=\tw@
+	{\descriptionlabel{#1}}
+	\hspace{\labelsep}%
+	\else
+	\ifnum\enit@type=\z@
+	\refstepcounter{\@listctr}\fi
+	\quad\@itemlabel\hspace{\labelsep}%
+	\fi}
+\makeatother
+
+\name{Songyuan Zhang}
+\address{{\bf LAB:} REALM Lab, MIT Building 31, 70 Vassar St, Cambridge, MA 02139, U.S.}
+\address{{\bf EMAIL:} \href{mailto:szhang21@mit.edu}{\nolinkurl{szhang21@mit.edu}}}
+\address{{\bf HOMEPAGE:} \href{http://syzhang092218-source.github.io}{http://syzhang092218-source.github.io}}
+
+\begin{document}
+	\begin{rSection}{RESEARCH INTERESTS}
+		Safe Autonomous Systems, Machine Learning, Reinforcement Learning, Robotics, Control Theory
+	\end{rSection}
+
+	\begin{rSection}{Education} 		
+		% \small
+		\begin{rSubsection2}{Massachusetts Institute of Technology}{Aug. 2021 - Now}{Graduate Student at Department of Aeronautics and Astronautics}{Advisor: Prof. Chuchu Fan}
+		\end{rSubsection2} 
+	
+		\begin{rSubsection2}{Tsinghua University}{Sep. 2017 - Jul. 2021}{B.E. in Tsien Excellence in Engineering Program (honored degree)}{\\\rightline{Advisor: Prof. Yanan Sui, Prof. Hao Wu, Prof. Gangtie Zheng}} 
+		\end{rSubsection2}
+		\vspace{-10pt}
+        
+        \begin{rSubsection2}{Stanford University}{Jun. 2020 - July. 2021}{Remote Visiting Scholar in Computer Science}{Advisor: Prof. Dorsa Sadigh}
+		\end{rSubsection2}
+
+		\begin{rSubsection2}{University of California, Berkeley}{July. 2019 - Sept. 2019}{Visiting Scholar in Mechanical Engineering}{Advisor: Prof. Masayoshi Tomizuka}
+		\end{rSubsection2}
+	\end{rSection}
+
+	\begin{rSection}{Publications}
+		\item[] \textbf{\underline{CONFERENCE}}
+		\vspace{5pt}
+		{
+			\item {\bf [NeurIPS'21]}
+			\paperItem{\person{\me*}{\meshort}, \person{Zhangjie Cao*}{Z. Cao}, \person{Dorsa Sadigh}{D. Sadigh}, and \person{Yanan Sui}{Y. Sui}}{Confidence-Aware Imitation Learning from Demonstrations with Varying Optimality}{Conference on Neural Information Processing Systems}{2021}{\href{https://sites.google.com/view/cail/}{[Website]}}
+		}
+	\end{rSection}
+
+	\begin{rSection}{Honors and Awards} {} \itemsep -2pt {}  
+		% \small
+		\item Outstanding Graduate of Tsinghua University \hfill{2021}
+		\item Outstanding Graduate of Beijing \hfill{2021}
+		\item Outstanding Graduate of Scientific Research at TEEP \hfill{2021}
+		\item Outstanding Graduate of Creativity at TEEP \hfill{2021}
+		\item Honor Degree of Tsien Class, Tsinghua University \hfill{2021}
+		\item Tsinghua Scholarship for Technological Innovation \hfill{2020}
+		\item National Scholarship, China \hfill{2019}
+		\item First Prize in Excellent Student Research Training Contest of Tsinghua University \hfill{2019}
+		\item First Prize in "Challenge Cup" Science and Technology Competition of Tsinghua University \hfill{2019}
+	\end{rSection}
+
+	\begin{rSection}{ACADEMIC SERVICES}
+		\item \textbf{Teaching Assistant} at Tsinghua University: X-idea (2021 Spring)
+	\end{rSection}
+
+	\begin{rSection}{LEADERSHIP \& MEMBERSHIP}
+		\item Chairman of 13th \textsl{Spark} Innovative Talents Training Program at Tsinghua University
+		\item Vice-monitor of Tsien Class 2017
+		\item Member of the Second Team of Middle and Long Distance Running at Tsinghua University
+	\end{rSection}
+
+	\begin{rSection}{HOBBIES}
+		\item Badminton, Running, Skiing, Piano, Drum kit, Taekwondo, Poker Magic
+	\end{rSection}
+	
+\end{document}
