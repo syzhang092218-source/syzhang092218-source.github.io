@@ -51,6 +51,22 @@ author_profile: true
     	</a>
     </p>
 </p>
-
+<p>
+  <img src="https://syzhang092218-source.github.io/files/neuriss.png?raw=true" alt="Photo" style="width: 350px;" hspace="5" vspace="5" align="right"/> 
+    <b>
+        Compositional Neural Certificates for Networked Dynamical Systems
+    </b>
+    <br>
+    	Songyuan Zhang, Yumeng Xiu, Guannan Qu, Chuchu Fan
+    <br>
+    <i>
+        5th Annual Learning for Dynamics & Control Conference (L4DC) 2023.
+    </i>
+    <p>
+	<a href="https://mit-realm.github.io/neuriss-website/">
+    	    [Website]
+    	</a>
+    </p>
+</p>
 
 

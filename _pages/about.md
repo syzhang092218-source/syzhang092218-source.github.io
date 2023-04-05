@@ -24,7 +24,7 @@ Besides research, I enjoy traveling, photography, skiing, badminton, and running
 
 ## News
 
-- **Mar 15, 2023**: L4DC 2023 paper accepted: S Zhang, Y Xiu, G Qu, C Fan: "Compositional Neural Certificates for Networked Dynamical Systems". 
+- **Mar 15, 2023**: L4DC 2023 paper accepted: S Zhang, Y Xiu, G Qu, C Fan: "[Compositional Neural Certificates for Networked Dynamical Systems](https://mit-realm.github.io/neuriss-website/)". 
 - **Oct 05, 2021**: [Code](https://github.com/Stanford-ILIAD/Confidence-Aware-Imitation-Learning) released for NeurIPS 2021 paper: S Zhang, Z Cao, D Sadigh, Y Sui: "Confidence-Aware Imitation Learning from Demonstrations with Varying Optimality". 
 - **Sep 28, 2021**: NeurIPS 2021 paper accepted: S Zhang, Z Cao, D Sadigh, Y Sui: "[Confidence-Aware Imitation Learning from Demonstrations with Varying Optimality](https://sites.google.com/view/cail/)". 
 - **Aug 27, 2021**: First day in our lab at MIT physically! 
