@@ -37,7 +37,8 @@ author_profile: true
         border: none;
         }
 </style>
-<table style="width:100%">
+<table style="width:100%" cellspacing="0" border="0">
+<tbody>
     <tr>
         <td>
             <b>
@@ -77,9 +78,10 @@ author_profile: true
             </p>
         </td>
         <td>
-            <img src="https://syzhang092218-source.github.io/files/neuriss.png?raw=true" alt="Photo" style="width: 300px;" hspace="5" vspace="5" align="center"/> 
+            <img src="https://syzhang092218-source.github.io/files/neuriss.png?raw=true" alt="Photo" style="width: 300px;" hspace="5" vspace="0" align="center"/> 
         </td>
     </tr>
+</tbody>
 <table>
 
 
