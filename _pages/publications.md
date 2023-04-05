@@ -35,7 +35,13 @@ author_profile: true
 	}
     table {
         border: none;
-        }
+    }
+    td {
+        border: none;
+    }
+    tr {
+        border: none;
+    }
 </style>
 <table style="width:100%" cellspacing="0" border="0">
 <tbody>
