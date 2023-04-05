@@ -52,7 +52,7 @@ author_profile: true
     </p>
 </p>
 <p>
-  <img src="https://syzhang092218-source.github.io/files/neuriss.png?raw=true" alt="Photo" style="width: 350px;" hspace="5" vspace="5" align="right"/> 
+  <img src="https://syzhang092218-source.github.io/files/neuriss.png?raw=true" alt="Photo" style="width: 350px;" hspace="5" vspace="5" align="right" vertical-align="middle"/> 
     <b>
         Compositional Neural Certificates for Networked Dynamical Systems
     </b>
