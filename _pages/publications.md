@@ -36,11 +36,9 @@ author_profile: true
     table {
         border: none;
     }
-    td {
+    td,tr {
         border: none;
-    }
-    tr {
-        border: none;
+        font-size: 18px;
     }
 </style>
 <table style="width:100%" cellspacing="0" border="0">
