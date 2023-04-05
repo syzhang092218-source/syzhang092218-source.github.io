@@ -43,7 +43,7 @@ author_profile: true
     	Songyuan Zhang*, Zhangjie Cao*, Dorsa Sadigh, Yanan Sui
     <br>
     <i>
-        Conference on Neural Information Processing Systems (NeurIPS), December 2021
+        Conference on Neural Information Processing Systems (NeurIPS), 2021
     </i>
     <p>
 	<a href="https://sites.google.com/view/cail/">
@@ -60,7 +60,7 @@ author_profile: true
     	Songyuan Zhang, Yumeng Xiu, Guannan Qu, Chuchu Fan
     <br>
     <i>
-        5th Annual Learning for Dynamics & Control Conference (L4DC) 2023.
+        5th Annual Learning for Dynamics & Control Conference (L4DC), 2023.
     </i>
     <p>
 	<a href="https://mit-realm.github.io/neuriss-website/">
