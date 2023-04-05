@@ -33,9 +33,58 @@ author_profile: true
     .fa-code:before {
  		content:"\f121"
 	}
+    table {
+        border: none;
+        }
 </style>
-<p>
-  <img src="https://syzhang092218-source.github.io/files/cail.png?raw=true" alt="Photo" style="width: 350px;" hspace="5" vspace="5" align="right"/> 
+<table style="width:100%">
+    <tr>
+        <td>
+            <b>
+            Confidence-Aware Imitation Learning from Demonstrations with Varying Optimality
+            </b>
+            <br>
+                Songyuan Zhang*, Zhangjie Cao*, Dorsa Sadigh, Yanan Sui
+            <br>
+            <i>
+                Conference on Neural Information Processing Systems (NeurIPS), 2021
+            </i>
+            <p>
+                <a href="https://sites.google.com/view/cail/">
+                    [Website]
+                </a>
+            </p>
+        </td>
+        <td>
+            <img src="https://syzhang092218-source.github.io/files/cail.png?raw=true" alt="Photo" style="width: 300px;" hspace="5" vspace="0" align="center"/>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <b>
+                Compositional Neural Certificates for Networked Dynamical Systems
+            </b>
+            <br>
+                Songyuan Zhang, Yumeng Xiu, Guannan Qu, Chuchu Fan
+            <br>
+            <i>
+                5th Annual Learning for Dynamics & Control Conference (L4DC), 2023.
+            </i>
+            <p>
+                <a href="https://mit-realm.github.io/neuriss-website/">
+                    [Website]
+                </a>
+            </p>
+        </td>
+        <td>
+            <img src="https://syzhang092218-source.github.io/files/neuriss.png?raw=true" alt="Photo" style="width: 300px;" hspace="5" vspace="5" align="center"/> 
+        </td>
+    </tr>
+<table>
+
+
+<!-- <p>
+  <img src="https://syzhang092218-source.github.io/files/cail.png?raw=true" alt="Photo" style="width: 300px;" hspace="5" vspace="0" align="right"/> 
     <b>
         Confidence-Aware Imitation Learning from Demonstrations with Varying Optimality
     </b>
@@ -52,7 +101,7 @@ author_profile: true
     </p>
 </p>
 <p>
-  <img src="https://syzhang092218-source.github.io/files/neuriss.png?raw=true" alt="Photo" style="width: 350px;" hspace="5" vspace="5" align="right"/> 
+  <img src="https://syzhang092218-source.github.io/files/neuriss.png?raw=true" alt="Photo" style="width: 300px;" hspace="5" vspace="5" align="right"/> 
     <b>
         Compositional Neural Certificates for Networked Dynamical Systems
     </b>
@@ -67,6 +116,6 @@ author_profile: true
     	    [Website]
     	</a>
     </p>
-</p>
+</p> -->
 
 
