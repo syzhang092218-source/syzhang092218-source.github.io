@@ -9,8 +9,6 @@ author_profile: true
   You can also find my articles on <u><a href="{{.googlescholar}}">my Google Scholar profile</a>.</u>
 {% endif %}
 
-## Conference Paper
-
 <style>
     .btn {
         background-color: #005395;
@@ -41,6 +39,48 @@ author_profile: true
         font-size: 18px;
     }
 </style>
+
+## Preprints
+
+<table style="width:100%" cellspacing="0" border="0">
+<tbody>
+    <tr>
+        <td>
+            <b>
+                Learning to Stabilize High-dimensional Unknown Systems Using Lyapunov-guided Exploration
+            </b>
+            <br>
+                Songyuan Zhang, Chuchu Fan
+            <br>
+            <i>
+                arXiv preprint arXiv:2306.08722
+            </i>
+            <p>
+                <span class="link-block">
+                    <a href="https://arxiv.org/abs/2303.14564"
+                    class="external-link button is-normal is-rounded is-dark">
+                    <span class="icon">
+                        <i class="ai ai-arxiv"></i>
+                    </span>
+                    <span>arXiv</span>
+                    </a>
+                </span>
+            </p>
+            <!-- <p>
+                <a href="https://arxiv.org/abs/2306.08722">
+                    [arXiv]
+                </a>
+            </p> -->
+        </td>
+        <td>
+            <!-- <img src="https://syzhang092218-source.github.io/files/neuriss.png?raw=true" alt="Photo" style="width: 300px;" hspace="5" vspace="0" align="center"/>  -->
+        </td>
+    </tr>
+</tbody>
+<table>
+
+## Conference Papers
+
 <table style="width:100%" cellspacing="0" border="0">
 <tbody>
     <tr>
