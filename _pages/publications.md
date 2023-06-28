@@ -46,6 +46,27 @@ author_profile: true
     <tr>
         <td>
             <b>
+                Compositional Neural Certificates for Networked Dynamical Systems
+            </b>
+            <br>
+                Songyuan Zhang, Yumeng Xiu, Guannan Qu, Chuchu Fan
+            <br>
+            <i>
+                5th Annual Learning for Dynamics & Control Conference (L4DC), 2023. [oral]
+            </i>
+            <p>
+                <a href="https://mit-realm.github.io/neuriss-website/">
+                    [Website]
+                </a>
+            </p>
+        </td>
+        <td>
+            <img src="https://syzhang092218-source.github.io/files/neuriss.png?raw=true" alt="Photo" style="width: 300px;" hspace="5" vspace="0" align="center"/> 
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <b>
             Confidence-Aware Imitation Learning from Demonstrations with Varying Optimality
             </b>
             <br>
@@ -62,27 +83,6 @@ author_profile: true
         </td>
         <td>
             <img src="https://syzhang092218-source.github.io/files/cail.png?raw=true" alt="Photo" style="width: 300px;" hspace="5" vspace="0" align="center"/>
-        </td>
-    </tr>
-    <tr>
-        <td>
-            <b>
-                Compositional Neural Certificates for Networked Dynamical Systems
-            </b>
-            <br>
-                Songyuan Zhang, Yumeng Xiu, Guannan Qu, Chuchu Fan
-            <br>
-            <i>
-                5th Annual Learning for Dynamics & Control Conference (L4DC), 2023.
-            </i>
-            <p>
-                <a href="https://mit-realm.github.io/neuriss-website/">
-                    [Website]
-                </a>
-            </p>
-        </td>
-        <td>
-            <img src="https://syzhang092218-source.github.io/files/neuriss.png?raw=true" alt="Photo" style="width: 300px;" hspace="5" vspace="0" align="center"/> 
         </td>
     </tr>
 </tbody>
