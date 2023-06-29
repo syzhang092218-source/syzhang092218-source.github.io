@@ -49,7 +49,7 @@ author_profile: true
 </head>
 <body>
 
-## Preprints
+<h2>Preprints</h2>
 
 <table style="width:100%" cellspacing="0" border="0">
 <tbody>
@@ -88,7 +88,7 @@ author_profile: true
 </tbody>
 <table>
 
-## Conference Papers
+<h2>Conference Papers</h2>
 
 <table style="width:100%" cellspacing="0" border="0">
 <tbody>
@@ -136,6 +136,9 @@ author_profile: true
     </tr>
 </tbody>
 <table>
+
+</body>
+</html>
 
 
 <!-- <p>
