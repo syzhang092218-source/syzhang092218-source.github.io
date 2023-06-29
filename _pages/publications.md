@@ -118,9 +118,15 @@ author_profile: true
                 5th Annual Learning for Dynamics & Control Conference (L4DC), 2023. [oral]
             </i>
             <p>
-                <a href="https://mit-realm.github.io/neuriss-website/">
-                    [Website]
-                </a>
+                <span class="link-block">
+                    <a href="https://mit-realm.github.io/neuriss-website/"
+                    class="external-link button is-normal is-rounded is-dark">
+                    <span class="icon">
+                        <i class="fa fa-globe"></i>
+                    </span>
+                    <span>Website</span>
+                    </a>
+                </span>
             </p>
         </td>
         <td>
@@ -139,9 +145,15 @@ author_profile: true
                 Conference on Neural Information Processing Systems (NeurIPS), 2021
             </i>
             <p>
-                <a href="https://sites.google.com/view/cail/">
-                    [Website]
-                </a>
+                <span class="link-block">
+                    <a href="https://sites.google.com/view/cail/"
+                    class="external-link button is-normal is-rounded is-dark">
+                    <span class="icon">
+                        <i class="fa fa-globe"></i>
+                    </span>
+                    <span>Website</span>
+                    </a>
+                </span>
             </p>
         </td>
         <td>
