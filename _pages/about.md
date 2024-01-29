@@ -24,9 +24,11 @@ Besides research, I enjoy traveling, photography, skiing, badminton, and running
 
 ## News
 
+- **Jan 25, 2024**: Our paper [GCBF+: A Neural Graph Control Barrier Function Framework for Distributed Safe Multi-Agent Control](https://arxiv.org/abs/2401.14554) is on arxiv now! 
+- **Nov 22, 2023**: Our survey paper [Learning Safe Control for Multi-Robot Systems: Methods, Verification, and Open Challenges](https://arxiv.org/abs/2311.13714) is on arxiv now!
 - **Aug 30, 2023**: Our paper [Neural Graph Control Barrier Functions Guided Distributed Collision-avoidance Multi-agent Control](https://mit-realm.github.io/gcbf-website/) is accepted by CoRL 2023!
 - **Aug 16, 2023**: Our paper [Physics-Informed, Safety and Stability Certified Neural Control for Uncertain Networked Microgrids](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=10233047) is accepted by IEEE-SG!
 - **Mar 15, 2023**: Our paper [Compositional Neural Certificates for Networked Dynamical Systems](https://mit-realm.github.io/neuriss-website/) is accepted by L4DC 2023!
-- **Sep 28, 2021**: Our paper [Confidence-Aware Imitation Learning from Demonstrations with Varying Optimality](https://sites.google.com/view/cail/)" is accepted by NeurIPS 2021! 
-- **Aug 27, 2021**: First day in our lab at MIT physically!
-- **Feb 23, 2021**: I received an offer from MIT!
+<!-- - **Sep 28, 2021**: Our paper [Confidence-Aware Imitation Learning from Demonstrations with Varying Optimality](https://sites.google.com/view/cail/)" is accepted by NeurIPS 2021!  -->
+<!-- - **Aug 27, 2021**: First day in our lab at MIT physically! -->
+<!-- - **Feb 23, 2021**: I received an offer from MIT! -->
