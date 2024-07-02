@@ -12,13 +12,13 @@ redirect_from:
 
 <p>
   <img src="https://syzhang092218-source.github.io/files/syzhang.jpg?raw=true" alt="Photo" style="width: 200px;" hspace="5" vspace="5" align="left"/> 
-  I am a third year graduate student at Department of Aeronautics and Astronautics, MIT. I received my B.E. degree at Tsien Excellence in Engineering Program (Tsien class, TEEP) at Tsinghua in 2021. The goal of my research is to develop real intelligent assistive robots. My research interests lie at Robotics and reliable learning and control algorithms.
+  I am a third year Ph.D. student at Department of Aeronautics and Astronautics, MIT. I received my B.E. degree at Tsien Excellence in Engineering Program (Tsien class, TEEP) at Tsinghua in 2021. The goal of my research is to develop real intelligent assistive robots. My research interests lie at safe multi-agent systems, reinforcement learning, control theories, and robotics.
 </p>
 
 
 I am a member of [REALM](http://realm.mit.edu/) lab led by Prof. [Chuchu Fan](https://chuchu.mit.edu/). Previously in my undergraduate program, I worked on learning from suboptimal demonstrations with Prof. [Yanan Sui](https://www.yanansui.com/) and Prof. [Dorsa Sadigh](https://dorsa.fyi/), developing clustering algorithms with Prof. [Hao Wu](https://haowu1983.github.io/), developing planning algorithms for autonomous driving with Prof. [Masayoshi Tomizuka](https://msc.berkeley.edu/people/tomizuka.html), as well as building medical robots with Prof. Gangtie Zheng. 
 
-Besides research, I enjoy traveling, photography, skiing, badminton, and running. I am also a Gryffindor!
+Besides research, I enjoy traveling, hiking, photography, skiing, badminton, and running. I am also a Gryffindor!
 
 
 
@@ -28,7 +28,7 @@ Besides research, I enjoy traveling, photography, skiing, badminton, and running
 - **Mar 21, 2024** Our survey paper [Learning Safe Control for Multi-Robot Systems: Methods, Verification, and Open Challenges](https://www.sciencedirect.com/science/article/abs/pii/S1367578824000178) is accepted by Annual Reviews in Control!
 - **Jan 25, 2024**: Our paper [GCBF+: A Neural Graph Control Barrier Function Framework for Distributed Safe Multi-Agent Control](https://arxiv.org/abs/2401.14554) is on arxiv now! 
 - **Aug 30, 2023**: Our paper [Neural Graph Control Barrier Functions Guided Distributed Collision-avoidance Multi-agent Control](https://mit-realm.github.io/gcbf-website/) is accepted by CoRL 2023!
-- **Aug 16, 2023**: Our paper [Physics-Informed, Safety and Stability Certified Neural Control for Uncertain Networked Microgrids](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=10233047) is accepted by IEEE-SG!
+<!-- - **Aug 16, 2023**: Our paper [Physics-Informed, Safety and Stability Certified Neural Control for Uncertain Networked Microgrids](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=10233047) is accepted by IEEE-SG! -->
 <!-- - **Mar 15, 2023**: Our paper [Compositional Neural Certificates for Networked Dynamical Systems](https://mit-realm.github.io/neuriss-website/) is accepted by L4DC 2023! -->
 <!-- - **Sep 28, 2021**: Our paper [Confidence-Aware Imitation Learning from Demonstrations with Varying Optimality](https://sites.google.com/view/cail/)" is accepted by NeurIPS 2021!  -->
 <!-- - **Aug 27, 2021**: First day in our lab at MIT physically! -->
