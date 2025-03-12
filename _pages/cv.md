@@ -9,6 +9,6 @@ redirect_from:
 
 {% include base_path %}
 
-My up-to-date Curriculum Vitae (last update: 02/07/2025): [[pdf]](https://syzhang092218-source.github.io/files/CV/CV_Songyuan_Zhang.pdf)
+My up-to-date Curriculum Vitae (last update: 03/12/2025): [[pdf]](https://syzhang092218-source.github.io/files/CV/CV_Songyuan_Zhang.pdf)
 
 My Curriculum Vitae when applying for Ph.D. programs: [[pdf]](https://syzhang092218-source.github.io/files/CV_Songyuan_Zhang_PhD.pdf)
