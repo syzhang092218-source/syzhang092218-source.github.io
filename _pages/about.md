@@ -24,11 +24,12 @@ Besides research, I enjoy traveling, hiking, photography, skiing, badminton, and
 
 ## News
 
+- **Apr 11, 2025** Our paper [Solving Multi-Agent Safe Optimal Control with Distributed Epigraph Form MARL](https://mit-realm.github.io/def-marl/) is accepted by RSS 2025!
 - **Jan 31, 2025** Our [GCBF+](https://mit-realm.github.io/gcbfplus/) work is featured by [MIT News](https://news.mit.edu/2025/mit-engineers-help-multirobot-systems-stay-safety-zone-0131)! 
 - **Jan 22, 2025** Our paper [Discrete GCBF Proximal Policy Optimization for Multi-agent Safe Optimal Control](https://mit-realm.github.io/dgppo/) is accepted by ICLR 2025!
 - **Dec 20, 2024** Our paper [GCBF+: A Neural Graph Control Barrier Function Framework for Distributed Safe Multi-Agent Control](https://mit-realm.github.io/gcbfplus/) is accepted by IEEE Transactions on Robotics (T-RO)!
-- **Mar 28, 2024** Our paper [Learning to Stabilize High-dimensional Unknown Systems Using Lyapunov-guided Exploration](https://mit-realm.github.io/lyge-website/) is accepted by L4DC 2024!
-- **Mar 21, 2024** Our survey paper [Learning Safe Control for Multi-Robot Systems: Methods, Verification, and Open Challenges](https://www.sciencedirect.com/science/article/abs/pii/S1367578824000178) is accepted by Annual Reviews in Control!
+<!-- - **Mar 28, 2024** Our paper [Learning to Stabilize High-dimensional Unknown Systems Using Lyapunov-guided Exploration](https://mit-realm.github.io/lyge-website/) is accepted by L4DC 2024!
+- **Mar 21, 2024** Our survey paper [Learning Safe Control for Multi-Robot Systems: Methods, Verification, and Open Challenges](https://www.sciencedirect.com/science/article/abs/pii/S1367578824000178) is accepted by Annual Reviews in Control! -->
 <!-- - **Aug 30, 2023**: Our paper [Neural Graph Control Barrier Functions Guided Distributed Collision-avoidance Multi-agent Control](https://mit-realm.github.io/gcbf-website/) is accepted by CoRL 2023! -->
 <!-- - **Aug 16, 2023**: Our paper [Physics-Informed, Safety and Stability Certified Neural Control for Uncertain Networked Microgrids](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=10233047) is accepted by IEEE-SG! -->
 <!-- - **Mar 15, 2023**: Our paper [Compositional Neural Certificates for Networked Dynamical Systems](https://mit-realm.github.io/neuriss-website/) is accepted by L4DC 2023! -->
