@@ -24,6 +24,8 @@ Besides research, I enjoy traveling, hiking, photography, skiing, badminton, and
 
 ## News
 
+- **Jun 24, 2025** Our paper [Solving Multi-Agent Safe Optimal Control with Distributed Epigraph Form MARL](https://mit-realm.github.io/def-marl/) wins the *Best Student Paper Award* of RSS 2025!
+- **Jun 16, 2025** Our paper [Solving Multi-Agent Safe Optimal Control with Distributed Epigraph Form MARL](https://mit-realm.github.io/def-marl/) is selected as the Best Paper Award finalist *and* the Best Student Paper Award finalist of RSS 2025!
 - **Apr 11, 2025** Our paper [Solving Multi-Agent Safe Optimal Control with Distributed Epigraph Form MARL](https://mit-realm.github.io/def-marl/) is accepted by RSS 2025!
 - **Jan 31, 2025** Our [GCBF+](https://mit-realm.github.io/gcbfplus/) work is featured by [MIT News](https://news.mit.edu/2025/mit-engineers-help-multirobot-systems-stay-safety-zone-0131)! 
 - **Jan 22, 2025** Our paper [Discrete GCBF Proximal Policy Optimization for Multi-agent Safe Optimal Control](https://mit-realm.github.io/dgppo/) is accepted by ICLR 2025!
