@@ -24,6 +24,7 @@ Besides research, I enjoy traveling, hiking, photography, skiing, badminton, and
 
 ## News
 
+- **Aug 29, 2025** I won the 2025-2026 Schwarzman College of Computing Amazon AI Research Innovation Fellowship!
 - **Jun 24, 2025** Our paper [Solving Multi-Agent Safe Optimal Control with Distributed Epigraph Form MARL](https://mit-realm.github.io/def-marl/) wins the *Best Student Paper Award* of RSS 2025!
 - **Jun 16, 2025** Our paper [Solving Multi-Agent Safe Optimal Control with Distributed Epigraph Form MARL](https://mit-realm.github.io/def-marl/) is selected as the Best Paper Award finalist *and* the Best Student Paper Award finalist of RSS 2025!
 - **Apr 11, 2025** Our paper [Solving Multi-Agent Safe Optimal Control with Distributed Epigraph Form MARL](https://mit-realm.github.io/def-marl/) is accepted by RSS 2025!

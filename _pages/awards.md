@@ -5,6 +5,7 @@ permalink: /awards/
 author_profile: true
 ---
 
+* **Schwarzman College of Computing Amazon AI Research Innovation Fellowship**, 2025
 * **Best Student Paper Award** Robotics: Science and Systems (RSS), 2025
 * **Best Paper Award Finalist** Robotics: Science and Systems (RSS), 2025
 * **Outstanding Graduate** Tsinghua University, China, 2021
