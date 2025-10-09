@@ -12,7 +12,7 @@ redirect_from:
 
 <p>
   <img src="https://syzhang092218-source.github.io/files/syzhang.jpg?raw=true" alt="Photo" style="width: 200px;" hspace="5" vspace="5" align="left"/> 
-  I am a Ph.D. student at Department of Aeronautics and Astronautics, MIT. I received my Master of Science in Aeronautics and Astronautics at MIT in 2024, and Bachelor of Engineering at Tsien Excellence in Engineering Program (Tsien class, TEEP) at Tsinghua in 2021. The goal of my research is to develop real intelligent assistive robots. My research interests lie at safe multi-agent systems, reinforcement learning, control theories, and robotics.
+  I am a Ph.D. student at Department of Aeronautics and Astronautics, MIT. I received my Master of Science in Aeronautics and Astronautics at MIT in 2024, and Bachelor of Engineering at Tsien Excellence in Engineering Program (Tsien class, TEEP) at Tsinghua in 2021. The goal of my research is to develop real intelligent assistive robots. My research interests lie in reinforcement learning, neural certificates, multi-agent systems, control theories, and robotics.
 </p>
 
 
