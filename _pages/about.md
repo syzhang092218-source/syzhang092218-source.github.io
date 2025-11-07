@@ -24,7 +24,8 @@ Besides research, I enjoy traveling, hiking, photography, skiing, badminton, and
 
 ## News
 
-- **Aug 29, 2025** I won the 2025-2026 Schwarzman College of Computing Amazon AI Research Innovation Fellowship!
+- **Sep 18, 2025**: Our paper [HMARL-CBF – Hierarchical Multi-Agent Reinforcement Learning with Control Barrier Functions for Safety-Critical Autonomous Systems](https://bu-depend-lab.github.io/HMARL-CBF/) is accepted by NeurIPS 2025!
+- **Aug 29, 2025** I won the 2025-2026 [Schwarzman College of Computing Amazon AI Research Innovation Fellowship](https://computing.mit.edu/news/nine-mit-phd-students-named-amazon-ai-fellows/)!
 - **Jun 24, 2025** Our paper [Solving Multi-Agent Safe Optimal Control with Distributed Epigraph Form MARL](https://mit-realm.github.io/def-marl/) wins the *Best Student Paper Award* of RSS 2025!
 - **Jun 16, 2025** Our paper [Solving Multi-Agent Safe Optimal Control with Distributed Epigraph Form MARL](https://mit-realm.github.io/def-marl/) is selected as the Best Paper Award finalist *and* the Best Student Paper Award finalist of RSS 2025!
 - **Apr 11, 2025** Our paper [Solving Multi-Agent Safe Optimal Control with Distributed Epigraph Form MARL](https://mit-realm.github.io/def-marl/) is accepted by RSS 2025!
