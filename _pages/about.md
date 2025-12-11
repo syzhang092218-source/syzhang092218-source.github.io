@@ -10,11 +10,12 @@ redirect_from:
 
 > --- After all this time? Always.
 
-<p>
+<!-- <p>
   <img src="https://syzhang092218-source.github.io/files/syzhang.jpg?raw=true" alt="Photo" style="width: 200px;" hspace="5" vspace="5" align="left"/> 
   I am a Ph.D. student at Department of Aeronautics and Astronautics, MIT. I received my Master of Science in Aeronautics and Astronautics at MIT in 2024, and Bachelor of Engineering at Tsien Excellence in Engineering Program (Tsien class, TEEP) at Tsinghua in 2021. The goal of my research is to develop real intelligent assistive robots. My research interests lie in reinforcement learning, neural certificates, multi-agent systems, control theories, and robotics.
-</p>
+</p> -->
 
+I am a Ph.D. student at Department of Aeronautics and Astronautics, MIT. I received my Master of Science in Aeronautics and Astronautics at MIT in 2024, and Bachelor of Engineering at Tsien Excellence in Engineering Program (Tsien class, TEEP) at Tsinghua in 2021. The goal of my research is to develop real intelligent assistive robots. My research interests lie in reinforcement learning, safe control for robotics, neural certificates, multi-agent systems, and control theories.
 
 I am a member of [REALM](http://realm.mit.edu/) lab led by Prof. [Chuchu Fan](https://chuchu.mit.edu/). Previously in my undergraduate program, I worked on learning from suboptimal demonstrations with Prof. [Yanan Sui](https://www.yanansui.com/) and Prof. [Dorsa Sadigh](https://dorsa.fyi/), developing clustering algorithms with Prof. [Hao Wu](https://haowu1983.github.io/), developing planning algorithms for autonomous driving with Prof. [Masayoshi Tomizuka](https://msc.berkeley.edu/people/tomizuka.html), as well as building medical robots with Prof. Gangtie Zheng. 
 
