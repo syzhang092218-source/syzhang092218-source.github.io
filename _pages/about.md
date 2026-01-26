@@ -25,14 +25,15 @@ Besides research, I enjoy traveling, hiking, photography, skiing, badminton, and
 
 ## News
 
+- **Jan 26, 2025**: Our papers "ReFORM: Reflected Flows for On-support Offline RL via Noise Manipulation" and "Solving Parameter-Robust Avoid Problems with Unknown Feasibility using Reinforcement Learning" are accepted by ICLR 2026!
 - **Sep 18, 2025**: Our paper [HMARL-CBF – Hierarchical Multi-Agent Reinforcement Learning with Control Barrier Functions for Safety-Critical Autonomous Systems](https://bu-depend-lab.github.io/HMARL-CBF/) is accepted by NeurIPS 2025!
 - **Aug 29, 2025** I won the 2025-2026 [Schwarzman College of Computing Amazon AI Research Innovation Fellowship](https://computing.mit.edu/news/nine-mit-phd-students-named-amazon-ai-fellows/)!
 - **Jun 24, 2025** Our paper [Solving Multi-Agent Safe Optimal Control with Distributed Epigraph Form MARL](https://mit-realm.github.io/def-marl/) wins the *Best Student Paper Award* of RSS 2025!
 - **Jun 16, 2025** Our paper [Solving Multi-Agent Safe Optimal Control with Distributed Epigraph Form MARL](https://mit-realm.github.io/def-marl/) is selected as the Best Paper Award finalist *and* the Best Student Paper Award finalist of RSS 2025!
 - **Apr 11, 2025** Our paper [Solving Multi-Agent Safe Optimal Control with Distributed Epigraph Form MARL](https://mit-realm.github.io/def-marl/) is accepted by RSS 2025!
 - **Jan 31, 2025** Our [GCBF+](https://mit-realm.github.io/gcbfplus/) work is featured by [MIT News](https://news.mit.edu/2025/mit-engineers-help-multirobot-systems-stay-safety-zone-0131)! 
-- **Jan 22, 2025** Our paper [Discrete GCBF Proximal Policy Optimization for Multi-agent Safe Optimal Control](https://mit-realm.github.io/dgppo/) is accepted by ICLR 2025!
-- **Dec 20, 2024** Our paper [GCBF+: A Neural Graph Control Barrier Function Framework for Distributed Safe Multi-Agent Control](https://mit-realm.github.io/gcbfplus/) is accepted by IEEE Transactions on Robotics (T-RO)!
+<!-- - **Jan 22, 2025** Our paper [Discrete GCBF Proximal Policy Optimization for Multi-agent Safe Optimal Control](https://mit-realm.github.io/dgppo/) is accepted by ICLR 2025!
+- **Dec 20, 2024** Our paper [GCBF+: A Neural Graph Control Barrier Function Framework for Distributed Safe Multi-Agent Control](https://mit-realm.github.io/gcbfplus/) is accepted by IEEE Transactions on Robotics (T-RO)! -->
 <!-- - **Mar 28, 2024** Our paper [Learning to Stabilize High-dimensional Unknown Systems Using Lyapunov-guided Exploration](https://mit-realm.github.io/lyge-website/) is accepted by L4DC 2024! -->
 <!-- - **Mar 21, 2024** Our survey paper [Learning Safe Control for Multi-Robot Systems: Methods, Verification, and Open Challenges](https://www.sciencedirect.com/science/article/abs/pii/S1367578824000178) is accepted by Annual Reviews in Control! -->
 <!-- - **Aug 30, 2023**: Our paper [Neural Graph Control Barrier Functions Guided Distributed Collision-avoidance Multi-agent Control](https://mit-realm.github.io/gcbf-website/) is accepted by CoRL 2023! -->
