@@ -1,7 +1,7 @@
 # Fdb version 4
-["pdflatex"] 1770146621.8124 "/home/songyuan/Documents/Website/syzhang092218-source.github.io/files/CV/CV_Songyuan_Zhang.tex" "CV_Songyuan_Zhang.pdf" "CV_Songyuan_Zhang" 1770146622.12065 0
+["pdflatex"] 1770240141.39838 "/home/songyuan/Documents/Website/syzhang092218-source.github.io/files/CV/CV_Songyuan_Zhang.tex" "CV_Songyuan_Zhang.pdf" "CV_Songyuan_Zhang" 1770240141.72744 0
   "/etc/texmf/web2c/texmf.cnf" 1738285359.40182 475 c0e671620eb5563b2130f56340a5fde8 ""
-  "/home/songyuan/Documents/Website/syzhang092218-source.github.io/files/CV/CV_Songyuan_Zhang.tex" 1770146621.65325 13199 6417cacae7895e1855552a6696247dbd ""
+  "/home/songyuan/Documents/Website/syzhang092218-source.github.io/files/CV/CV_Songyuan_Zhang.tex" 1770240141.21812 13169 4a494c41770047f6144dadf2d4f8828e ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmbx10.tfm" 1136768653 1328 c834bbb027764024c09d3d2bf908b5f0 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm" 1136768653 1324 c910af8c371558dc20f2d7822f66fe64 ""
@@ -83,9 +83,9 @@
   "/usr/share/texmf/web2c/texmf.cnf" 1707919699 40399 f2c302f7d2af602abb742093540a5834 ""
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1738285584.54794 5472669 54eaf61a88b6b7896ebd0dac973cb29c ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1738285652 8214329 a5212415232c0d12a42211cd0938141c ""
-  "CV_Songyuan_Zhang.aux" 1770146622.09625 162 fa61bf9ecf9314f94d51aa32222a725c "pdflatex"
-  "CV_Songyuan_Zhang.out" 1770146622.03125 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
-  "CV_Songyuan_Zhang.tex" 1770146621.65325 13199 6417cacae7895e1855552a6696247dbd ""
+  "CV_Songyuan_Zhang.aux" 1770240141.70213 162 fa61bf9ecf9314f94d51aa32222a725c "pdflatex"
+  "CV_Songyuan_Zhang.out" 1770240141.63412 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+  "CV_Songyuan_Zhang.tex" 1770240141.21812 13169 4a494c41770047f6144dadf2d4f8828e ""
   "resume.cls" 1675183588.72321 5274 a10979d31f059c01397c030229787a97 ""
   (generated)
   "CV_Songyuan_Zhang.aux"
