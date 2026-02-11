@@ -24,7 +24,7 @@ Besides research, I enjoy traveling, hiking, photography, skiing, badminton, and
 ## News
 
 - **Jan 31, 2025**: Our paper "Beyond Waypoints: Semantic-Centric Autonomy with Unreliable Maps Through Learned Abstractions" is accepted by ICRA 2026!
-- **Jan 26, 2025**: Our papers [ReFORM: Reflected Flows for On-support Offline RL via Noise Manipulation](https://mit-realm.github.io/reform/) and "Solving Parameter-Robust Avoid Problems with Unknown Feasibility using Reinforcement Learning" are accepted by ICLR 2026!
+- **Jan 26, 2025**: Our papers [ReFORM: Reflected Flows for On-support Offline RL via Noise Manipulation](https://mit-realm.github.io/reform/) and [Solving Parameter-Robust Avoid Problems with Unknown Feasibility using Reinforcement Learning](https://oswinso.xyz/fge/) are accepted by ICLR 2026!
 - **Sep 18, 2025**: Our paper [HMARL-CBF – Hierarchical Multi-Agent Reinforcement Learning with Control Barrier Functions for Safety-Critical Autonomous Systems](https://bu-depend-lab.github.io/HMARL-CBF/) is accepted by NeurIPS 2025!
 - **Aug 29, 2025** I won the 2025-2026 [Schwarzman College of Computing Amazon AI Research Innovation Fellowship](https://computing.mit.edu/news/nine-mit-phd-students-named-amazon-ai-fellows/)!
 - **Jun 24, 2025** Our paper [Solving Multi-Agent Safe Optimal Control with Distributed Epigraph Form MARL](https://mit-realm.github.io/def-marl/) wins the *Best Student Paper Award* of RSS 2025!
