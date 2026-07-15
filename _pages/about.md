@@ -23,13 +23,16 @@ Besides research, I enjoy traveling, hiking, photography, skiing, badminton, and
 
 ## News
 
+- **Jul 15, 2026**: Our paper "Handbook on Safety Certificates: Techniques from Hamilton-Jacobi Reachability Analysis and Control Barrier Functions" is accepted by the 2026 65th IEEE Conference on Decision and Control (CDC)! 
+- **Jul 11, 2026**: Our paper "Safe and Scalable Multi-Drone Payload Transport via CBF-based Reinforcement Learning with Zero-Shot Sim-to-Real Transfer" is accepted by IEEE Robotics and Automation Letters (RA-L)!
+- **Jun 23, 2026**: Our paper "Hamiltonian Grid-Forming: Methodology and Applications for IBR-Rich Grid Operations" is accepted by IEEE Transactions on Industry Applications!
 - **Jan 31, 2025**: Our paper "Beyond Waypoints: Semantic-Centric Autonomy with Unreliable Maps Through Learned Abstractions" is accepted by ICRA 2026!
 - **Jan 26, 2025**: Our papers [ReFORM: Reflected Flows for On-support Offline RL via Noise Manipulation](https://mit-realm.github.io/reform/) and [Solving Parameter-Robust Avoid Problems with Unknown Feasibility using Reinforcement Learning](https://oswinso.xyz/fge/) are accepted by ICLR 2026!
 - **Sep 18, 2025**: Our paper [HMARL-CBF – Hierarchical Multi-Agent Reinforcement Learning with Control Barrier Functions for Safety-Critical Autonomous Systems](https://bu-depend-lab.github.io/HMARL-CBF/) is accepted by NeurIPS 2025!
 - **Aug 29, 2025** I won the 2025-2026 [Schwarzman College of Computing Amazon AI Research Innovation Fellowship](https://computing.mit.edu/news/nine-mit-phd-students-named-amazon-ai-fellows/)!
 - **Jun 24, 2025** Our paper [Solving Multi-Agent Safe Optimal Control with Distributed Epigraph Form MARL](https://mit-realm.github.io/def-marl/) wins the *Best Student Paper Award* of RSS 2025!
 - **Jun 16, 2025** Our paper [Solving Multi-Agent Safe Optimal Control with Distributed Epigraph Form MARL](https://mit-realm.github.io/def-marl/) is selected as the Best Paper Award finalist *and* the Best Student Paper Award finalist of RSS 2025!
-- **Apr 11, 2025** Our paper [Solving Multi-Agent Safe Optimal Control with Distributed Epigraph Form MARL](https://mit-realm.github.io/def-marl/) is accepted by RSS 2025!
+<!-- - **Apr 11, 2025** Our paper [Solving Multi-Agent Safe Optimal Control with Distributed Epigraph Form MARL](https://mit-realm.github.io/def-marl/) is accepted by RSS 2025! -->
 <!-- - **Jan 31, 2025** Our [GCBF+](https://mit-realm.github.io/gcbfplus/) work is featured by [MIT News](https://news.mit.edu/2025/mit-engineers-help-multirobot-systems-stay-safety-zone-0131)!  -->
 <!-- - **Jan 22, 2025** Our paper [Discrete GCBF Proximal Policy Optimization for Multi-agent Safe Optimal Control](https://mit-realm.github.io/dgppo/) is accepted by ICLR 2025! -->
 <!-- - **Dec 20, 2024** Our paper [GCBF+: A Neural Graph Control Barrier Function Framework for Distributed Safe Multi-Agent Control](https://mit-realm.github.io/gcbfplus/) is accepted by IEEE Transactions on Robotics (T-RO)! -->
