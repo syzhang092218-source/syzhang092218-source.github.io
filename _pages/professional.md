@@ -5,6 +5,10 @@ permalink: /professional/
 author_profile: true
 ---
 
+## Workshop Organization
+
+- **Dec, 2026:** Organizing Committee Member of [Workshop on Safety Analysis for Autonomous System: Practical Perspectives and Recent Advances](https://haowwang.github.io/cdc26_safety_workshop/), 65th IEEE Conference on Decision and Control (CDC).
+
 ## Teaching Assistant
 
 - **Feb, 2021 - Jun, 2021:** Chief Teaching Assistant of the X-idea Course at Tsinghua University.
