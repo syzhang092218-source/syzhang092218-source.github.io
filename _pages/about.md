@@ -24,8 +24,8 @@ Besides research, I enjoy traveling, hiking, photography, skiing, badminton, and
 ## News
 
 - **Jul 15, 2026**: Our paper "Handbook on Safety Certificates: Techniques from Hamilton-Jacobi Reachability Analysis and Control Barrier Functions" is accepted by the 2026 65th IEEE Conference on Decision and Control (CDC)! 
-- **Jul 11, 2026**: Our paper "Safe and Scalable Multi-Drone Payload Transport via CBF-based Reinforcement Learning with Zero-Shot Sim-to-Real Transfer" is accepted by IEEE Robotics and Automation Letters (RA-L)!
-- **Jun 23, 2026**: Our paper "Hamiltonian Grid-Forming: Methodology and Applications for IBR-Rich Grid Operations" is accepted by IEEE Transactions on Industry Applications!
+- **Jul 11, 2026**: Our paper [Safe and Scalable Multi-Drone Payload Transport via CBF-based Reinforcement Learning with Zero-Shot Sim-to-Real Transfer](https://arxiv.org/abs/2607.20665) is accepted by IEEE Robotics and Automation Letters (RA-L)!
+- **Jun 23, 2026**: Our paper [Hamiltonian Grid-Forming: Methodology and Applications for IBR-Rich Grid Operations](https://ieeexplore.ieee.org/abstract/document/11626557) is accepted by IEEE Transactions on Industry Applications!
 - **Jan 31, 2025**: Our paper "Beyond Waypoints: Semantic-Centric Autonomy with Unreliable Maps Through Learned Abstractions" is accepted by ICRA 2026!
 - **Jan 26, 2025**: Our papers [ReFORM: Reflected Flows for On-support Offline RL via Noise Manipulation](https://mit-realm.github.io/reform/) and [Solving Parameter-Robust Avoid Problems with Unknown Feasibility using Reinforcement Learning](https://oswinso.xyz/fge/) are accepted by ICLR 2026!
 - **Sep 18, 2025**: Our paper [HMARL-CBF – Hierarchical Multi-Agent Reinforcement Learning with Control Barrier Functions for Safety-Critical Autonomous Systems](https://bu-depend-lab.github.io/HMARL-CBF/) is accepted by NeurIPS 2025!
