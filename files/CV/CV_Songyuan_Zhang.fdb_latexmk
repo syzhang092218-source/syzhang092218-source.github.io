@@ -1,7 +1,7 @@
 # Fdb version 4
-["pdflatex"] 1773078379.61483 "/home/songyuan/Documents/Website/syzhang092218-source.github.io/files/CV/CV_Songyuan_Zhang.tex" "CV_Songyuan_Zhang.pdf" "CV_Songyuan_Zhang" 1773078379.92038 0
+["pdflatex"] 1788295347.16034 "/home/songyuan/Documents/Website/syzhang092218-source.github.io/files/CV/CV_Songyuan_Zhang.tex" "CV_Songyuan_Zhang.pdf" "CV_Songyuan_Zhang" 1788295347.45594 0
   "/etc/texmf/web2c/texmf.cnf" 1738285359.40182 475 c0e671620eb5563b2130f56340a5fde8 ""
-  "/home/songyuan/Documents/Website/syzhang092218-source.github.io/files/CV/CV_Songyuan_Zhang.tex" 1773078379.47573 13181 97d0aeeec67fe2f8bf62e8ab9551cfb1 ""
+  "/home/songyuan/Documents/Website/syzhang092218-source.github.io/files/CV/CV_Songyuan_Zhang.tex" 1788295346.9995 14964 d9870328216658be583a18f1e3da3371 ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmbx10.tfm" 1136768653 1328 c834bbb027764024c09d3d2bf908b5f0 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm" 1136768653 1324 c910af8c371558dc20f2d7822f66fe64 ""
@@ -51,7 +51,6 @@
   "/usr/share/texlive/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty" 1579991033 13886 d1306dcf79a944f6988e688c1785f9ce ""
   "/usr/share/texlive/texmf-dist/tex/latex/etaremune/etaremune.sty" 1137110107 3251 65e8a5d192b62112fb36dfba0bc4c282 ""
   "/usr/share/texlive/texmf-dist/tex/latex/etoolbox/etoolbox.sty" 1601931149 46845 3b58f70c6e861a13d927bff09d35ecbc ""
-  "/usr/share/texlive/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty" 1668028059 18450 88279bf67c81e69f8e3f1c1bad1a26c5 ""
   "/usr/share/texlive/texmf-dist/tex/latex/geometry/geometry.sty" 1578002852 41601 9cf6c5257b1bc7af01a58859749dd37a ""
   "/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/color.cfg" 1459978653 1213 620bba36b25224fa9b7e1ccb4ecb76fd ""
   "/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/graphics.cfg" 1465944070 1224 978390e9c2234eab29404bc21b268d1e ""
@@ -83,9 +82,9 @@
   "/usr/share/texmf/web2c/texmf.cnf" 1707919699 40399 f2c302f7d2af602abb742093540a5834 ""
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1738285584.54794 5472669 54eaf61a88b6b7896ebd0dac973cb29c ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1738285652 8214329 a5212415232c0d12a42211cd0938141c ""
-  "CV_Songyuan_Zhang.aux" 1773078379.89574 162 fa61bf9ecf9314f94d51aa32222a725c "pdflatex"
-  "CV_Songyuan_Zhang.out" 1773078379.83074 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
-  "CV_Songyuan_Zhang.tex" 1773078379.47573 13181 97d0aeeec67fe2f8bf62e8ab9551cfb1 ""
+  "CV_Songyuan_Zhang.aux" 1788295347.43251 162 fa61bf9ecf9314f94d51aa32222a725c "pdflatex"
+  "CV_Songyuan_Zhang.out" 1788295347.36651 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+  "CV_Songyuan_Zhang.tex" 1788295346.9995 14964 d9870328216658be583a18f1e3da3371 ""
   "resume.cls" 1675183588.72321 5274 a10979d31f059c01397c030229787a97 ""
   (generated)
   "CV_Songyuan_Zhang.aux"

@@ -1,19 +1,12 @@
 \documentclass{resume} % Use the custom resume.cls style
 
-\usepackage[left=1in,top=1.3in,right=1in,bottom=1.3in]{geometry} % Document margins
+\usepackage[left=0.8in,top=0.8in,right=0.8in,bottom=0.8in]{geometry} % Document margins
 \usepackage{hyperref}
 \usepackage{etaremune}
 \usepackage[inline]{enumitem} 
 \usepackage{graphicx}
 \usepackage{tabularx}
-\pagestyle{plain}
-
-\usepackage{fancyhdr}
-\pagestyle{fancy}
-\fancyhf{}
-\rhead{Songyuan Zhang}
-\lhead{Curriculum Vitae}
-\rfoot{Page \thepage}
+\pagestyle{empty}
 
 \hypersetup{
 % 	bookmarks=true,         % show bookmarks bar?
@@ -35,7 +28,7 @@
 
 \newcommand{\tab}[1]{\hspace{.2667\textwidth}\rlap{#1}} 
 \newcommand{\itab}[1]{\hspace{0em}\rlap{#1}}
-\newcommand{\paperItem}[4]{#1.~``#2."~\textit{#3},~#4.}%author title venue year
+\newcommand{\paperItem}[4]{#1. ``#2." \textit{#3}, #4.}% author, title, venue, year
 \newcommand{\talktitle}[1]{{``#1",}} %talk title
 \newcommand{\talkplace}[3]{{\textit{#1},~#2,~#3.}} % conference, place, time
 \newcommand{\confItem}[3]{#1~#2~(\textit{#3})} %abrrev, full name, year
@@ -90,10 +83,22 @@
 		\end{rSubsection2}
 	\end{rSection}
 
+	\begin{rSection}{Professional Experience}
+		\begin{rSubsection2}{Amazon Industrial Robotics Group}{Summer 2026}{Applied Scientist II Intern}{}
+		\end{rSubsection2}
+	\end{rSection}
+
 	\begin{rSection}{Publications}
 		% \item[] \textbf{\underline{CONFERENCE}}
 		% \vspace{5pt}
-		{	
+		{
+			\setlength{\emergencystretch}{0.5em}
+			\item {\bf [CDC'26]}
+			\paperItem{\person{Hao Wang}{H. Wang}, \person{Max Cohen}{M. Cohen}, \person{Zeyuan Feng}{Z. Feng}, \person{David Oh*}{D. Oh}, \person{Oswin So*}{O. So}, \person{\me*}{\meshort}, \person{Javier Borquez}{J. Borquez}, \person{Chuchu Fan}{C. Fan}, \person{Jaime Fisac}{J. Fisac}, \person{Haimin Hu}{H. Hu}, \person{Somil Bansal}{S. Bansal}, and \person{Jason J. Choi}{J. J. Choi}}{Handbook on Safety Certificates: Techniques from Hamilton--Jacobi Reachability Analysis and Control Barrier Functions}{65th IEEE Conference on Decision and Control (CDC)}{2026}
+			\item {\bf [RA-L'26]}
+			\paperItem{\person{Jaeyoun Choi}{J. Choi}, \person{Oswin So}{O. So}, \person{\me}{\meshort}, \person{Cooper Taylor}{C. Taylor}, and \person{Chuchu Fan}{C. Fan}}{Safe and Scalable Multi-Drone Payload Transport via CBF-based Reinforcement Learning with Zero-Shot Sim-to-Real Transfer}{IEEE Robotics and Automation Letters (RA-L), Early Access}{2026}{\href{https://arxiv.org/abs/2607.20665}{[arXiv]}}
+			\item {\bf [TIA'26]}
+			\paperItem{\person{Qing Shen}{Q. Shen}, \person{Peng Zhang}{P. Zhang}, \person{\me}{\meshort}, \person{Chuchu Fan}{C. Fan}, \person{Yifan Zhou}{Y. Zhou}, and \person{Yacov A. Shamash}{Y. A. Shamash}}{Hamiltonian Grid-Forming: Methodology and Applications for IBR-Rich Grid Operations}{IEEE Transactions on Industry Applications}{2026}{\href{https://ieeexplore.ieee.org/abstract/document/11626557}{[PDF]}}
 			\item {\bf [ICRA'26]}
 			\paperItem{\person{Akila Saravanan}{A. Saravanan}, \person{\me}{\meshort}, \person{Travis Manderson}{T. Manderson}, \person{Nicholas Roy}{N. Roy}, and \person{Chuchu Fan}{C. Fan}}{Beyond Waypoints: Semantic-Centric Autonomy with Unreliable Maps Through Learned Abstractions}{IEEE International Conference on Robotics and Automation (ICRA)}{2026}
 			\item {\bf [ICLR'26]}
@@ -146,6 +151,7 @@
 	\end{rSection}
 
 	\begin{rSection}{ACADEMIC SERVICES}
+		\item \textbf{Workshop Organizing Committee Member:} \href{https://haowwang.github.io/cdc26_safety_workshop/}{Workshop on Safety Analysis for Autonomous System: Practical Perspectives and Recent Advances}, 65th IEEE Conference on Decision and Control (CDC), 2026
 		\item \textbf{Journal Reviewer:} \\IEEE Transactions on Robotics (T-RO), IEEE Transactions on Automatic Control (T-AC), Automatica, Annual Reviews in Control (ARC), IEEE Open Journal of Control Systems (OJ-CSYS), IEEE Robotics and Automation Letters (RA-L), IEEE Transactions on Cybernetics (T-CYB), IEEE Transactions on Control Systems Technology (TCST)
 		\item \textbf{Conference Reviewer:} \\NeurIPS, ICLR, ICML, RSS, CoRL, ICRA, L4DC, IROS, AAAI, AISTATS, CDC, ACC, NeuS, NFM, DARS, RV, TACAS, ANTS, CCTA
 		\item \textbf{Teaching Assistant} at Tsinghua University: X-idea (2021 Spring)
@@ -163,7 +169,7 @@
 	\end{rSection}
 
 	\begin{rSection}{HOBBIES}
-		\item Photography, Hiking, Badminton, Running, Skiing, Piano, Drum kit, Taekwondo, Poker Magic
+		\item Travelling, Hiking, Photography, Badminton, Running, Skiing
 	\end{rSection}
 	
 \end{document}
