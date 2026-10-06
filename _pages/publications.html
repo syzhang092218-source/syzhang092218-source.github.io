@@ -20,6 +20,65 @@ author_profile: true
     .publication-highlight {
         color: #c62828;
     }
+    .archive a.publication-button {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        gap: 7px;
+        min-height: 36px;
+        margin: 8px 4px 2px 0;
+        padding: 7px 13px;
+        border: 1px solid #30343b;
+        border-radius: 8px;
+        background: #1c1f26;
+        color: #fff;
+        font-size: 15px;
+        font-weight: 600;
+        line-height: 1.2;
+        text-decoration: none;
+        white-space: nowrap;
+        vertical-align: middle;
+        box-shadow: 0 1px 2px rgba(0, 0, 0, 0.12);
+        transition: background-color 150ms ease, border-color 150ms ease, box-shadow 150ms ease, transform 150ms ease;
+    }
+    .archive a.publication-button:visited {
+        color: #fff;
+    }
+    .archive a.publication-button:hover {
+        background: #343a46;
+        border-color: #454d5c;
+        color: #fff;
+        text-decoration: none;
+        box-shadow: 0 3px 7px rgba(0, 0, 0, 0.16);
+        transform: translateY(-1px);
+    }
+    .archive a.publication-button:focus {
+        outline: 2px solid #3478c7;
+        outline-offset: 3px;
+    }
+    .archive a.publication-button:active {
+        transform: translateY(0);
+        box-shadow: none;
+    }
+    .publication-button > i,
+    .publication-button > img {
+        flex: 0 0 auto;
+        width: 18px;
+        height: 18px;
+        margin: 0;
+        font-size: 16px;
+        line-height: 18px;
+        text-align: center;
+        object-fit: contain;
+    }
+    @media (prefers-reduced-motion: reduce) {
+        .archive a.publication-button {
+            transition: none;
+        }
+        .archive a.publication-button:hover {
+            transform: none;
+        }
+    }
 </style>
 
     
@@ -37,18 +96,14 @@ author_profile: true
                 Conference on Neural Information Processing Systems (NeurIPS), 2026.
             </i>
             <br>
-                <span class="link-block" style="background-color:black; border-radius: 5px; padding-left: 5px; padding-right: 5px; display: inline-block">
-                    <a href="https://mit-realm.github.io/laser/" style="text-decoration: none">
-                    <span class="icon" style="color:white;">
-                        <i class="fas fa-globe" aria-hidden="true"></i>
-                    </span>
-                    <span style="color:white;">Website</span>
-                    </a>
-                </span>
+                <a class="publication-button" href="https://mit-realm.github.io/laser/">
+                    <i class="fas fa-globe" aria-hidden="true"></i>
+                    <span>Website</span>
+                </a>
             <br>
         </td>
         <td>
-            <img src="{{ '/_pages/publication_teasers/laser.png' | relative_url }}" alt="LASER reach-avoid comparison showing the benefits of support constraints and entropy regularization" style="width: 500px;" hspace="5" vspace="0" align="center"/>
+            <img src="{{ '/_pages/publication_teasers/laser.png' | relative_url }}" alt="LASER algorithm diagram showing the base and latent flows, behavior-cloning decoder, and action-space policy" style="width: 500px;" hspace="5" vspace="0" align="center"/>
         </td>
     </tr>
     <tr>
@@ -77,14 +132,10 @@ author_profile: true
                 IEEE Robotics and Automation Letters (RA-L), Early Access, 2026.
             </i>
             <br>
-                <span class="link-block" style="background-color:black; border-radius: 5px; padding-left: 5px; padding-right: 5px; display: inline-block">
-                    <a href="https://arxiv.org/abs/2607.20665" style="text-decoration: none">
-                    <span class="icon" style="color:white;">
-                        <i class="ai ai-arxiv"></i>
-                    </span>
-                    <span style="color:white;">arXiv</span>
-                    </a>
-                </span>
+                <a class="publication-button" href="https://arxiv.org/abs/2607.20665">
+                    <img src="{{ '/assets/icons/arxiv.svg' | relative_url }}" width="18" height="18" alt="" aria-hidden="true">
+                    <span>arXiv</span>
+                </a>
             <br>
         </td>
         <td>
@@ -103,14 +154,10 @@ author_profile: true
                 IEEE Transactions on Industry Applications, 2026.
             </i>
             <br>
-                <span class="link-block" style="background-color:black; border-radius: 5px; padding-left: 5px; padding-right: 5px; display: inline-block">
-                    <a href="https://ieeexplore.ieee.org/abstract/document/11626557" style="text-decoration: none">
-                    <span class="icon" style="color:white;">
-                        <i class="fas fa-file-pdf"></i>
-                    </span>
-                    <span style="color:white;">PDF</span>
-                    </a>
-                </span>
+                <a class="publication-button" href="https://ieeexplore.ieee.org/abstract/document/11626557">
+                    <i class="fas fa-file-pdf" aria-hidden="true"></i>
+                    <span>PDF</span>
+                </a>
             <br>
         </td>
         <td>
@@ -129,14 +176,10 @@ author_profile: true
                 IEEE International Conference on Robotics and Automation (ICRA), 2026.
             </i>
             <br>
-                <span class="link-block" style="background-color:black; border-radius: 5px; padding-left: 5px; padding-right: 5px; display: inline-block">
-                    <a href="https://ieeexplore.ieee.org/abstract/document/11696272" style="text-decoration: none">
-                    <span class="icon" style="color:white;">
-                        <i class="fas fa-file-pdf" aria-hidden="true"></i>
-                    </span>
-                    <span style="color:white;">PDF</span>
-                    </a>
-                </span>
+                <a class="publication-button" href="https://ieeexplore.ieee.org/abstract/document/11696272">
+                    <i class="fas fa-file-pdf" aria-hidden="true"></i>
+                    <span>PDF</span>
+                </a>
             <br>
         </td>
         <td>
@@ -155,14 +198,10 @@ author_profile: true
                 International Conference on Learning Representations (ICLR), 2026.
             </i>
             <br>
-                <span class="link-block" style="background-color:black; border-radius: 5px; padding-left: 5px; padding-right: 5px; display: inline-block">
-                    <a href="https://mit-realm.github.io/reform/" style="text-decoration: none">
-                    <span class="icon" style="color:white;">
-                        <i class="fas fa-globe"></i>
-                    </span>
-                    <span style="color:white;">Website</span>
-                    </a>
-                </span>
+                <a class="publication-button" href="https://mit-realm.github.io/reform/">
+                    <i class="fas fa-globe" aria-hidden="true"></i>
+                    <span>Website</span>
+                </a>
             <br>
         </td>
         <td>
@@ -181,14 +220,10 @@ author_profile: true
                 International Conference on Learning Representations (ICLR), 2026.
             </i>
             <br>
-                <span class="link-block" style="background-color:black; border-radius: 5px; padding-left: 5px; padding-right: 5px; display: inline-block">
-                    <a href="https://oswinso.xyz/fge" style="text-decoration: none">
-                    <span class="icon" style="color:white;">
-                        <i class="fas fa-globe"></i>
-                    </span>
-                    <span style="color:white;">Website</span>
-                    </a>
-                </span>
+                <a class="publication-button" href="https://oswinso.xyz/fge">
+                    <i class="fas fa-globe" aria-hidden="true"></i>
+                    <span>Website</span>
+                </a>
             <br>
         </td>
         <td>
@@ -208,14 +243,10 @@ author_profile: true
                 Conference on Neural Information Processing Systems (NeurIPS), 2025.
             </i>
             <br>
-                <span class="link-block" style="background-color:black; border-radius: 5px; padding-left: 5px; padding-right: 5px; display: inline-block">
-                    <a href="https://bu-depend-lab.github.io/HMARL-CBF/" style="text-decoration: none">
-                    <span class="icon" style="color:white;">
-                        <i class="fas fa-globe"></i>
-                    </span>
-                    <span style="color:white;">Website</span>
-                    </a>
-                </span>
+                <a class="publication-button" href="https://bu-depend-lab.github.io/HMARL-CBF/">
+                    <i class="fas fa-globe" aria-hidden="true"></i>
+                    <span>Website</span>
+                </a>
             <br>
         </td>
         <td>
@@ -234,14 +265,10 @@ author_profile: true
                 Proceedings of Robotics: Science and Systems (RSS), 2025. <b class="publication-highlight">[Best Student Paper Award]</b>
             </i>
             <br>
-                <span class="link-block" style="background-color:black; border-radius: 5px; padding-left: 5px; padding-right: 5px; display: inline-block">
-                    <a href="https://mit-realm.github.io/def-marl/" style="text-decoration: none">
-                    <span class="icon" style="color:white;">
-                        <i class="fas fa-globe"></i>
-                    </span>
-                    <span style="color:white;">Website</span>
-                    </a>
-                </span>
+                <a class="publication-button" href="https://mit-realm.github.io/def-marl/">
+                    <i class="fas fa-globe" aria-hidden="true"></i>
+                    <span>Website</span>
+                </a>
             <br>
         </td>
         <td>
@@ -260,14 +287,10 @@ author_profile: true
                 International Conference on Learning Representations (ICLR), 2025.
             </i>
             <br>
-                <span class="link-block" style="background-color:black; border-radius: 5px; padding-left: 5px; padding-right: 5px; display: inline-block">
-                    <a href="https://mit-realm.github.io/dgppo/" style="text-decoration: none">
-                    <span class="icon" style="color:white;">
-                        <i class="fas fa-globe"></i>
-                    </span>
-                    <span style="color:white;">Website</span>
-                    </a>
-                </span>
+                <a class="publication-button" href="https://mit-realm.github.io/dgppo/">
+                    <i class="fas fa-globe" aria-hidden="true"></i>
+                    <span>Website</span>
+                </a>
             <br>
         </td>
         <td>
@@ -286,14 +309,10 @@ author_profile: true
                 IEEE Transactions on Robotics, 2025.
             </i>
             <br>
-                <span class="link-block" style="background-color:black; border-radius: 5px; padding-left: 5px; padding-right: 5px; display: inline-block">
-                    <a href="https://mit-realm.github.io/gcbfplus/" style="text-decoration: none">
-                    <span class="icon" style="color:white;">
-                        <i class="fas fa-globe"></i>
-                    </span>
-                    <span style="color:white;">Website</span>
-                    </a>
-                </span>
+                <a class="publication-button" href="https://mit-realm.github.io/gcbfplus/">
+                    <i class="fas fa-globe" aria-hidden="true"></i>
+                    <span>Website</span>
+                </a>
             <br>
             <!-- <p>
                 <a href="https://arxiv.org/abs/2306.08722">
@@ -317,14 +336,10 @@ author_profile: true
                 6th Annual Learning for Dynamics & Control Conference (L4DC), 2024.
             </i>
             <br>
-                <span class="link-block" style="background-color:black; border-radius: 5px; padding-left: 5px; padding-right: 5px; display: inline-block">
-                    <a href="https://mit-realm.github.io/lyge-website/" style="text-decoration: none">
-                    <span class="icon" style="color:white;">
-                        <i class="fas fa-globe"></i>
-                    </span>
-                    <span style="color:white;">Website</span>
-                    </a>
-                </span>
+                <a class="publication-button" href="https://mit-realm.github.io/lyge-website/">
+                    <i class="fas fa-globe" aria-hidden="true"></i>
+                    <span>Website</span>
+                </a>
             <br>
         </td>
         <td>
@@ -343,14 +358,10 @@ author_profile: true
                 Annual Reviews in Control (ARC), vol. 57, p. 100948, 2024.
             </i>
             <br>
-                <span class="link-block" style="background-color:black; border-radius: 5px; padding-left: 5px; padding-right: 5px; display: inline-block">
-                    <a href="https://arxiv.org/abs/2311.13714" style="text-decoration: none">
-                    <span class="icon" style="color:white;">
-                        <i class="ai ai-arxiv"></i>
-                    </span>
-                    <span style="color:white;">arXiv</span>
-                    </a>
-                </span>
+                <a class="publication-button" href="https://arxiv.org/abs/2311.13714">
+                    <img src="{{ '/assets/icons/arxiv.svg' | relative_url }}" width="18" height="18" alt="" aria-hidden="true">
+                    <span>arXiv</span>
+                </a>
             <br>
             <!-- <p>
                 <a href="https://arxiv.org/abs/2306.08722">
@@ -374,14 +385,10 @@ author_profile: true
                 2024 AIAA DATC/IEEE 43rd Digital Avionics Systems Conference (DASC), 2024.
             </i>
             <br>
-            <span class="link-block" style="background-color:black; border-radius: 5px; padding-left: 5px; padding-right: 5px; display: inline-block">
-                <a href="https://ieeexplore.ieee.org/abstract/document/10749515" style="text-decoration: none">
-                <span class="icon" style="color:white;">
-                    <i class="fas fa-file-pdf"></i>
-                </span>
-                <span style="color:white;">PDF</span>
-                </a>
-            </span>
+            <a class="publication-button" href="https://ieeexplore.ieee.org/abstract/document/10749515">
+                <i class="fas fa-file-pdf" aria-hidden="true"></i>
+                <span>PDF</span>
+            </a>
         </br>
         </td>
         <td>
@@ -400,14 +407,10 @@ author_profile: true
                 AIAA SCITECH 2024 Forum, 2024.
             </i>
             <br>
-                <span class="link-block" style="background-color:black; border-radius: 5px; padding-left: 5px; padding-right: 5px; display: inline-block">
-                    <a href="https://arc.aiaa.org/doi/abs/10.2514/6.2024-1081" style="text-decoration: none">
-                    <span class="icon" style="color:white;">
-                        <i class="fas fa-file-pdf"></i>
-                    </span>
-                    <span style="color:white;">PDF</span>
-                    </a>
-                </span>
+                <a class="publication-button" href="https://arc.aiaa.org/doi/abs/10.2514/6.2024-1081">
+                    <i class="fas fa-file-pdf" aria-hidden="true"></i>
+                    <span>PDF</span>
+                </a>
             </br>
         </td>
         <td>
@@ -426,14 +429,10 @@ author_profile: true
                 7th Conference on Robot Learning (CoRL), 2023.
             </i>
             <br>
-                <span class="link-block" style="background-color:black; border-radius: 5px; padding-left: 5px; padding-right: 5px; display: inline-block">
-                    <a href="https://mit-realm.github.io/gcbf-website/" style="text-decoration: none">
-                    <span class="icon" style="color:white;">
-                        <i class="fas fa-globe"></i>
-                    </span>
-                    <span style="color:white;">Website</span>
-                    </a>
-                </span>
+                <a class="publication-button" href="https://mit-realm.github.io/gcbf-website/">
+                    <i class="fas fa-globe" aria-hidden="true"></i>
+                    <span>Website</span>
+                </a>
             </br>
         </td>
         <td>
@@ -452,14 +451,10 @@ author_profile: true
                 IEEE Transactions on Smart Grid, 2023.
             </i>
             <br>
-                <span class="link-block" style="background-color:black; border-radius: 5px; padding-left: 5px; padding-right: 5px; display: inline-block">
-                    <a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=10233047" style="text-decoration: none">
-                    <span class="icon" style="color:white;">
-                        <i class="fas fa-file-pdf"></i>
-                    </span>
-                    <span style="color:white;">PDF</span>
-                    </a>
-                </span>
+                <a class="publication-button" href="https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=10233047">
+                    <i class="fas fa-file-pdf" aria-hidden="true"></i>
+                    <span>PDF</span>
+                </a>
             </br>
             <!-- <p>
                 <a href="https://arxiv.org/abs/2306.08722">
@@ -483,14 +478,10 @@ author_profile: true
                 2023 IEEE Power & Energy Society General Meeting (PESGM), 2023.
             </i>
             <br>
-                <span class="link-block" style="background-color:black; border-radius: 5px; padding-left: 5px; padding-right: 5px; display: inline-block">
-                    <a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=10253396" style="text-decoration: none">
-                    <span class="icon" style="color:white;">
-                        <i class="fas fa-file-pdf"></i>
-                    </span>
-                    <span style="color:white;">PDF</span>
-                    </a>
-                </span>
+                <a class="publication-button" href="https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=10253396">
+                    <i class="fas fa-file-pdf" aria-hidden="true"></i>
+                    <span>PDF</span>
+                </a>
             </br>
         </td>
         <td>
@@ -509,14 +500,10 @@ author_profile: true
                 5th Annual Learning for Dynamics & Control Conference (L4DC), 2023. <b class="publication-highlight">[Oral]</b>
             </i>
             <br>
-                <span class="link-block" style="background-color:black; border-radius: 5px; padding-left: 5px; padding-right: 5px; display: inline-block">
-                    <a href="https://mit-realm.github.io/neuriss-website/" style="text-decoration: none">
-                    <span class="icon" style="color:white;">
-                        <i class="fas fa-globe"></i>
-                    </span>
-                    <span style="color:white;">Website</span>
-                    </a>
-                </span>
+                <a class="publication-button" href="https://mit-realm.github.io/neuriss-website/">
+                    <i class="fas fa-globe" aria-hidden="true"></i>
+                    <span>Website</span>
+                </a>
             </br>
         </td>
         <td>
@@ -535,14 +522,10 @@ author_profile: true
                 Conference on Neural Information Processing Systems (NeurIPS), 2021.
             </i>
             <br>
-                <span class="link-block" style="background-color:black; border-radius: 5px; padding-left: 5px; padding-right: 5px; display: inline-block">
-                    <a href="https://sites.google.com/view/cail/" style="text-decoration: none">
-                    <span class="icon" style="color:white;">
-                        <i class="fas fa-globe"></i>
-                    </span>
-                    <span style="color:white;">Website</span>
-                    </a>
-                </span>
+                <a class="publication-button" href="https://sites.google.com/view/cail/">
+                    <i class="fas fa-globe" aria-hidden="true"></i>
+                    <span>Website</span>
+                </a>
             </br>
         </td>
         <td>
@@ -568,14 +551,10 @@ author_profile: true
                 arXiv preprint arXiv:2404.06413
             </i>
             <br>
-                <span class="link-block" style="background-color:black; border-radius: 5px; padding-left: 5px; padding-right: 5px; display: inline-block">
-                    <a href="https://arxiv.org/abs/2404.06413" style="text-decoration: none">
-                    <span class="icon" style="color:white;">
-                        <i class="ai ai-arxiv"></i>
-                    </span>
-                    <span style="color:white;">arXiv</span>
-                    </a>
-                </span>
+                <a class="publication-button" href="https://arxiv.org/abs/2404.06413">
+                    <img src="{{ '/assets/icons/arxiv.svg' | relative_url }}" width="18" height="18" alt="" aria-hidden="true">
+                    <span>arXiv</span>
+                </a>
             <br>
             <!-- <p>
                 <a href="https://arxiv.org/abs/2306.08722">
