@@ -20,6 +20,21 @@ author_profile: true
     .publication-list {
         table-layout: fixed;
     }
+    .publication-list td {
+        padding: 16px 9px;
+        line-height: 1.45;
+    }
+    .publication-list td > b {
+        color: #313940;
+    }
+    .publication-authors {
+        color: #58616a;
+        font-size: 16px;
+    }
+    .publication-venue {
+        color: #5f6872;
+        font-size: 16px;
+    }
     .publication-list .publication-teaser-column {
         width: 29%;
     }
@@ -27,6 +42,20 @@ author_profile: true
         max-width: 100%;
         height: auto;
         margin: 0;
+    }
+    .publication-year > td {
+        padding-top: 1.5em;
+        padding-bottom: 0.5em;
+    }
+    .publication-year:first-child > td {
+        padding-top: 0;
+    }
+    .publication-year h2 {
+        margin: 0;
+        padding-bottom: 0.35em;
+        border-bottom: 1px solid #e2e5e8;
+        font-size: 24px;
+        line-height: 1.3;
     }
     .publication-highlight {
         color: #c62828;
@@ -82,6 +111,43 @@ author_profile: true
         text-align: center;
         object-fit: contain;
     }
+    @media (max-width: 640px) {
+        .publication-list,
+        .publication-list tbody,
+        .publication-list tr,
+        .publication-list td {
+            display: block;
+            width: 100%;
+        }
+        .publication-list colgroup {
+            display: none;
+        }
+        .publication-list tr {
+            padding: 16px 0;
+        }
+        .publication-list td {
+            padding: 0;
+        }
+        .publication-list td + td {
+            padding-top: 12px;
+        }
+        .publication-list td > img {
+            display: block;
+            max-width: min(100%, 320px);
+            max-height: 220px;
+            object-fit: contain;
+            object-position: left center;
+        }
+        .publication-list .publication-year {
+            padding: 24px 0 0;
+        }
+        .publication-list .publication-year:first-child {
+            padding-top: 0;
+        }
+        .publication-list .publication-year > td {
+            padding: 0;
+        }
+    }
     @media (prefers-reduced-motion: reduce) {
         .archive a.publication-button {
             transition: none;
@@ -99,15 +165,18 @@ author_profile: true
     <col class="publication-teaser-column">
 </colgroup>
 <tbody>
+    <tr class="publication-year">
+        <td colspan="2"><h2 id="publications-2026">2026</h2></td>
+    </tr>
     <tr>
         <td>
             <b>
                 LASER: Latent Space Adjoint Matching for Support-Constrained Entropy-Regularized Offline RL
             </b>
             <br>
-                <u>Songyuan Zhang</u>, Oswin So, Eric Yang Yu, Matthew Cleaveland, Peter Crowley-Dolen, Chuchu Fan
+                <span class="publication-authors"><u>Songyuan Zhang</u>, Oswin So, Eric Yang Yu, Matthew Cleaveland, Peter Crowley-Dolen, Chuchu Fan</span>
             <br>
-            <i>
+            <i class="publication-venue">
                 Conference on Neural Information Processing Systems (NeurIPS), 2026.
             </i>
             <br>
@@ -127,9 +196,9 @@ author_profile: true
                 Handbook on Safety Certificates: Techniques from Hamilton-Jacobi Reachability Analysis and Control Barrier Functions
             </b>
             <br>
-                Hao Wang, Max Cohen, Zeyuan Feng, David Oh*, Oswin So*, <u>Songyuan Zhang*</u>, Javier Borquez, Chuchu Fan, Jaime Fisac, Haimin Hu, Somil Bansal, Jason J. Choi
+                <span class="publication-authors">Hao Wang, Max Cohen, Zeyuan Feng, David Oh*, Oswin So*, <u>Songyuan Zhang*</u>, Javier Borquez, Chuchu Fan, Jaime Fisac, Haimin Hu, Somil Bansal, Jason J. Choi</span>
             <br>
-            <i>
+            <i class="publication-venue">
                 65th IEEE Conference on Decision and Control (CDC), 2026.
             </i>
             <br>
@@ -141,9 +210,9 @@ author_profile: true
                 Safe and Scalable Multi-Drone Payload Transport via CBF-based Reinforcement Learning with Zero-Shot Sim-to-Real Transfer
             </b>
             <br>
-                Jaeyoun Choi, Oswin So, <u>Songyuan Zhang</u>, Cooper Taylor, Chuchu Fan
+                <span class="publication-authors">Jaeyoun Choi, Oswin So, <u>Songyuan Zhang</u>, Cooper Taylor, Chuchu Fan</span>
             <br>
-            <i>
+            <i class="publication-venue">
                 IEEE Robotics and Automation Letters (RA-L), Early Access, 2026.
             </i>
             <br>
@@ -163,9 +232,9 @@ author_profile: true
                 Hamiltonian Grid-Forming: Methodology and Applications for IBR-Rich Grid Operations
             </b>
             <br>
-                Qing Shen, Peng Zhang, <u>Songyuan Zhang</u>, Chuchu Fan, Yifan Zhou, Yacov A. Shamash
+                <span class="publication-authors">Qing Shen, Peng Zhang, <u>Songyuan Zhang</u>, Chuchu Fan, Yifan Zhou, Yacov A. Shamash</span>
             <br>
-            <i>
+            <i class="publication-venue">
                 IEEE Transactions on Industry Applications, 2026.
             </i>
             <br>
@@ -185,9 +254,9 @@ author_profile: true
                 Beyond Waypoints: Semantic-Centric Autonomy with Unreliable Maps Through Learned Abstractions
             </b>
             <br>
-                Akila Saravanan, <u>Songyuan Zhang</u>, Travis Manderson, Nicholas Roy, Chuchu Fan
+                <span class="publication-authors">Akila Saravanan, <u>Songyuan Zhang</u>, Travis Manderson, Nicholas Roy, Chuchu Fan</span>
             <br>
-            <i>
+            <i class="publication-venue">
                 IEEE International Conference on Robotics and Automation (ICRA), 2026.
             </i>
             <br>
@@ -207,9 +276,9 @@ author_profile: true
                 ReFORM: Reflected Flows for On-support Offline RL via Noise Manipulation
             </b>
             <br>
-                <u>Songyuan Zhang</u>, Oswin So, H M Sabbir Ahmad, Eric Yang Yu, Matthew Cleaveland, Mitchell Black, Chuchu Fan
+                <span class="publication-authors"><u>Songyuan Zhang</u>, Oswin So, H M Sabbir Ahmad, Eric Yang Yu, Matthew Cleaveland, Mitchell Black, Chuchu Fan</span>
             <br>
-            <i>
+            <i class="publication-venue">
                 International Conference on Learning Representations (ICLR), 2026.
             </i>
             <br>
@@ -229,9 +298,9 @@ author_profile: true
                 Solving Parameter-Robust Avoid Problems with Unknown Feasibility using Reinforcement Learning
             </b>
             <br>
-                Oswin So, Eric Yang Yu, <u>Songyuan Zhang</u>, Matthew Cleaveland, Mitchell Black, Chuchu Fan
+                <span class="publication-authors">Oswin So, Eric Yang Yu, <u>Songyuan Zhang</u>, Matthew Cleaveland, Mitchell Black, Chuchu Fan</span>
             <br>
-            <i>
+            <i class="publication-venue">
                 International Conference on Learning Representations (ICLR), 2026.
             </i>
             <br>
@@ -245,16 +314,19 @@ author_profile: true
             <img src="https://syzhang092218-source.github.io/_pages/publication_teasers/fge.jpg?raw=true" alt="Photo" style="width: 500px;" hspace="5" vspace="0" align="center"/> 
         </td>
     </tr>
+    <tr class="publication-year">
+        <td colspan="2"><h2 id="publications-2025">2025</h2></td>
+    </tr>
     <tr>
         <td>
             <b>
                 HMARL-CBF – Hierarchical Multi-Agent Reinforcement Learning with Control Barrier Functions for Safety-Critical Autonomous Systems
             </b>
             <br>
-                H. M. Sabbir Ahmad, Ehsan Sabouni, Alexander Wasilkoff, Param Budhraja,
-                Zijian Guo, <u>Songyuan Zhang</u>, Chuchu Fan, Christos Cassandras, Wenchao Li
+                <span class="publication-authors">H. M. Sabbir Ahmad, Ehsan Sabouni, Alexander Wasilkoff, Param Budhraja,
+                Zijian Guo, <u>Songyuan Zhang</u>, Chuchu Fan, Christos Cassandras, Wenchao Li</span>
             <br>
-            <i>
+            <i class="publication-venue">
                 Conference on Neural Information Processing Systems (NeurIPS), 2025.
             </i>
             <br>
@@ -274,9 +346,9 @@ author_profile: true
                 Solving Multi-Agent Safe Optimal Control with Distributed Epigraph Form MARL
             </b>
             <br>
-                <u>Songyuan Zhang*</u>, Oswin So*, Mitchell Black, Zachary Serlin, Chuchu Fan
+                <span class="publication-authors"><u>Songyuan Zhang*</u>, Oswin So*, Mitchell Black, Zachary Serlin, Chuchu Fan</span>
             <br>
-            <i>
+            <i class="publication-venue">
                 Proceedings of Robotics: Science and Systems (RSS), 2025. <b class="publication-highlight">[Best Student Paper Award]</b>
             </i>
             <br>
@@ -296,9 +368,9 @@ author_profile: true
                 Discrete GCBF Proximal Policy Optimization for Multi-agent Safe Optimal Control
             </b>
             <br>
-                <u>Songyuan Zhang</u>, Oswin So, Mitchell Black, Chuchu Fan
+                <span class="publication-authors"><u>Songyuan Zhang</u>, Oswin So, Mitchell Black, Chuchu Fan</span>
             <br>
-            <i>
+            <i class="publication-venue">
                 International Conference on Learning Representations (ICLR), 2025.
             </i>
             <br>
@@ -318,9 +390,9 @@ author_profile: true
                 GCBF+: A Neural Graph Control Barrier Function Framework for Distributed Safe Multi-Agent Control
             </b>
             <br>
-                <u>Songyuan Zhang</u>*, Oswin So*, Kunal Garg, Chuchu Fan
+                <span class="publication-authors"><u>Songyuan Zhang</u>*, Oswin So*, Kunal Garg, Chuchu Fan</span>
             <br>
-            <i>
+            <i class="publication-venue">
                 IEEE Transactions on Robotics, 2025.
             </i>
             <br>
@@ -339,15 +411,18 @@ author_profile: true
             <img src="https://syzhang092218-source.github.io/_pages/publication_teasers/GCBF+.jpeg?raw=true" alt="Photo" style="width: 500px;" hspace="5" vspace="0" align="center"/> 
         </td>
     </tr>
+    <tr class="publication-year">
+        <td colspan="2"><h2 id="publications-2024">2024</h2></td>
+    </tr>
     <tr>
         <td>
             <b>
                 Learning to Stabilize High-dimensional Unknown Systems Using Lyapunov-guided Exploration
             </b>
             <br>
-                <u>Songyuan Zhang</u>, Chuchu Fan
+                <span class="publication-authors"><u>Songyuan Zhang</u>, Chuchu Fan</span>
             <br>
-            <i>
+            <i class="publication-venue">
                 6th Annual Learning for Dynamics & Control Conference (L4DC), 2024.
             </i>
             <br>
@@ -367,9 +442,9 @@ author_profile: true
                 Learning Safe Control for Multi-Robot Systems: Methods, Verification, and Open Challenges
             </b>
             <br>
-                Kunal Garg, <u>Songyuan Zhang</u>, Oswin So, Charles Dawson, Chuchu Fan
+                <span class="publication-authors">Kunal Garg, <u>Songyuan Zhang</u>, Oswin So, Charles Dawson, Chuchu Fan</span>
             <br>
-            <i>
+            <i class="publication-venue">
                 Annual Reviews in Control (ARC), vol. 57, p. 100948, 2024.
             </i>
             <br>
@@ -394,9 +469,9 @@ author_profile: true
                 A Robust Machine Learning Method for Safe and Efficient UAS Integration
             </b>
             <br>
-                Anahita Imanian, Songyuan Zhang, Austin Whitesell, Craig Wanke, Chuchu Fan
+                <span class="publication-authors">Anahita Imanian, Songyuan Zhang, Austin Whitesell, Craig Wanke, Chuchu Fan</span>
             <br>
-            <i>
+            <i class="publication-venue">
                 2024 AIAA DATC/IEEE 43rd Digital Avionics Systems Conference (DASC), 2024.
             </i>
             <br>
@@ -416,9 +491,9 @@ author_profile: true
                 Safe and Scalable Collision Avoidance Model for Small Unmanned Aircraft Systems: An Artificial Intelligence Approach
             </b>
             <br>
-                Anahita Imanian, Songyuan Zhang, Chuchu Fan, Bulent Ayhan, Austin WhiteSell, Shereef Sayed, and Craig Wanke
+                <span class="publication-authors">Anahita Imanian, Songyuan Zhang, Chuchu Fan, Bulent Ayhan, Austin WhiteSell, Shereef Sayed, and Craig Wanke</span>
             <br>
-            <i>
+            <i class="publication-venue">
                 AIAA SCITECH 2024 Forum, 2024.
             </i>
             <br>
@@ -432,15 +507,18 @@ author_profile: true
             <img src="https://syzhang092218-source.github.io/_pages/publication_teasers/AIAASCITECH2024.png?raw=true" alt="Photo" style="width: 500px;" hspace="5" vspace="0" align="center"/> 
         </td>
     </tr> -->
+    <tr class="publication-year">
+        <td colspan="2"><h2 id="publications-2023">2023</h2></td>
+    </tr>
     <tr>
         <td>
             <b>
                 Neural Graph Control Barrier Functions Guided Distributed Collision-avoidance Multi-agent Control
             </b>
             <br>
-                <u>Songyuan Zhang</u>, Kunal Garg, Chuchu Fan
+                <span class="publication-authors"><u>Songyuan Zhang</u>, Kunal Garg, Chuchu Fan</span>
             <br>
-            <i>
+            <i class="publication-venue">
                 7th Conference on Robot Learning (CoRL), 2023.
             </i>
             <br>
@@ -460,9 +538,9 @@ author_profile: true
                 Physics-Informed, Safety and Stability Certified Neural Control for Uncertain Networked Microgrids
             </b>
             <br>
-                Lizhi Wang, <u>Songyuan Zhang</u>, Yifan Zhou, Chuchu Fan, Peng Zhang, Yacov A. Shamash
+                <span class="publication-authors">Lizhi Wang, <u>Songyuan Zhang</u>, Yifan Zhou, Chuchu Fan, Peng Zhang, Yacov A. Shamash</span>
             <br>
-            <i>
+            <i class="publication-venue">
                 IEEE Transactions on Smart Grid, 2023.
             </i>
             <br>
@@ -487,9 +565,9 @@ author_profile: true
                 Learning-Based, Safety and Stability-Certified Microgrid Control
             </b>
             <br>
-                Lizhi Wang, <u>Songyuan Zhang</u>, Yifan Zhou, Chuchu Fan, Peng Zhang, Yacov A. Shamash
+                <span class="publication-authors">Lizhi Wang, <u>Songyuan Zhang</u>, Yifan Zhou, Chuchu Fan, Peng Zhang, Yacov A. Shamash</span>
             <br>
-            <i>
+            <i class="publication-venue">
                 2023 IEEE Power & Energy Society General Meeting (PESGM), 2023.
             </i>
             <br>
@@ -509,9 +587,9 @@ author_profile: true
                 Compositional Neural Certificates for Networked Dynamical Systems
             </b>
             <br>
-                <u>Songyuan Zhang</u>, Yumeng Xiu, Guannan Qu, Chuchu Fan
+                <span class="publication-authors"><u>Songyuan Zhang</u>, Yumeng Xiu, Guannan Qu, Chuchu Fan</span>
             <br>
-            <i>
+            <i class="publication-venue">
                 5th Annual Learning for Dynamics & Control Conference (L4DC), 2023. <b class="publication-highlight">[Oral]</b>
             </i>
             <br>
@@ -525,15 +603,18 @@ author_profile: true
             <img src="https://syzhang092218-source.github.io/_pages/publication_teasers/L4DC2023.jpg?raw=true" alt="Photo" style="width: 500px;" hspace="5" vspace="0" align="center"/> 
         </td>
     </tr>
+    <tr class="publication-year">
+        <td colspan="2"><h2 id="publications-2021">2021</h2></td>
+    </tr>
     <tr>
         <td>
             <b>
             Confidence-Aware Imitation Learning from Demonstrations with Varying Optimality
             </b>
             <br>
-                <u>Songyuan Zhang*</u>, Zhangjie Cao*, Dorsa Sadigh, Yanan Sui
+                <span class="publication-authors"><u>Songyuan Zhang*</u>, Zhangjie Cao*, Dorsa Sadigh, Yanan Sui</span>
             <br>
-            <i>
+            <i class="publication-venue">
                 Conference on Neural Information Processing Systems (NeurIPS), 2021.
             </i>
             <br>
@@ -564,9 +645,9 @@ author_profile: true
                 Foundation Models to the Rescue: Deadlock Resolution in Connected Multi-Robot Systems
             </b>
             <br>
-                Kunal Garg, <u>Songyuan Zhang</u>, Jacob Arkin, Chuchu Fan
+                <span class="publication-authors">Kunal Garg, <u>Songyuan Zhang</u>, Jacob Arkin, Chuchu Fan</span>
             <br>
-            <i>
+            <i class="publication-venue">
                 arXiv preprint arXiv:2404.06413
             </i>
             <br>
