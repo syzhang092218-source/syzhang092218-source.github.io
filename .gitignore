@@ -1,2 +1,25 @@
+# Jekyll output and caches
 _site/
+.sass-cache/
+.jekyll-cache/
+.jekyll-metadata
+.asset-cache/
+.jekyll-assets-cache/
+
+# Operating-system metadata
 .DS_Store
+
+# CV LaTeX build intermediates (keep source files and published PDFs)
+/files/CV/*.aux
+/files/CV/*.bbl
+/files/CV/*.bcf
+/files/CV/*.blg
+/files/CV/*.fdb_latexmk
+/files/CV/*.fls
+/files/CV/*.log
+/files/CV/*.out
+/files/CV/*.run.xml
+/files/CV/*.synctex.gz
+/files/CV/*.toc
+/files/CV/*.lof
+/files/CV/*.lot
