@@ -17,6 +17,17 @@ author_profile: true
         border: none;
         font-size: 18px;
     }
+    .publication-list {
+        table-layout: fixed;
+    }
+    .publication-list .publication-teaser-column {
+        width: 29%;
+    }
+    .publication-list td > img {
+        max-width: 100%;
+        height: auto;
+        margin: 0;
+    }
     .publication-highlight {
         color: #c62828;
     }
@@ -82,7 +93,11 @@ author_profile: true
 </style>
 
     
-<table style="width: 100%; margin-top: -10px;" cellspacing="0" border="0">
+<table class="publication-list" style="width: 100%; margin-top: -10px;" cellspacing="0" border="0">
+<colgroup>
+    <col>
+    <col class="publication-teaser-column">
+</colgroup>
 <tbody>
     <tr>
         <td>
@@ -537,7 +552,11 @@ author_profile: true
 
 <h2>Preprints</h2>
 
-<table style="width: 100%; margin-top: -10px;" cellspacing="0" border="0">
+<table class="publication-list" style="width: 100%; margin-top: -10px;" cellspacing="0" border="0">
+<colgroup>
+    <col>
+    <col class="publication-teaser-column">
+</colgroup>
 <tbody>
     <tr>
         <td>
@@ -567,4 +586,4 @@ author_profile: true
         </td>
     </tr>
 </tbody>
-<table>
+</table>
