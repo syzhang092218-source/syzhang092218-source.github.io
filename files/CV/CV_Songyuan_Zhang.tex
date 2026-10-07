@@ -1,11 +1,13 @@
 \documentclass{resume} % Use the custom resume.cls style
 
 \usepackage[left=0.8in,top=0.8in,right=0.8in,bottom=0.8in]{geometry} % Document margins
+\usepackage{xcolor}
 \usepackage{hyperref}
 \usepackage{etaremune}
 \usepackage[inline]{enumitem} 
 \usepackage{graphicx}
 \usepackage{tabularx}
+\definecolor{cvhighlight}{HTML}{C62828}
 \pagestyle{empty}
 
 \hypersetup{
@@ -28,7 +30,7 @@
 
 \newcommand{\tab}[1]{\hspace{.2667\textwidth}\rlap{#1}} 
 \newcommand{\itab}[1]{\hspace{0em}\rlap{#1}}
-\newcommand{\paperItem}[4]{#1. ``#2." \textit{#3}, #4.}% author, title, venue, year
+\newcommand{\paperItem}[4]{#1. ``#2." \textit{#3}, #4.\space\ignorespaces}% author, title, venue, year; one space before links
 \newcommand{\talktitle}[1]{{``#1",}} %talk title
 \newcommand{\talkplace}[3]{{\textit{#1},~#2,~#3.}} % conference, place, time
 \newcommand{\confItem}[3]{#1~#2~(\textit{#3})} %abrrev, full name, year
@@ -84,7 +86,7 @@
 	\end{rSection}
 
 	\begin{rSection}{Professional Experience}
-		\begin{rSubsection2}{Amazon Industrial Robotics Group}{Summer 2026}{Applied Scientist II Intern}{}
+		\begin{rSubsection2}{Amazon Industrial Robotics Group}{Summer 2026}{Applied Scientist II Intern}{Project: Humanoid whole body safe control}
 		\end{rSubsection2}
 	\end{rSection}
 
@@ -98,7 +100,7 @@
 			\item {\bf [CDC'26]}
 			\paperItem{\person{Hao Wang}{H. Wang}, \person{Max Cohen}{M. Cohen}, \person{Zeyuan Feng}{Z. Feng}, \person{David Oh*}{D. Oh}, \person{Oswin So*}{O. So}, \person{\me*}{\meshort}, \person{Javier Borquez}{J. Borquez}, \person{Chuchu Fan}{C. Fan}, \person{Jaime Fisac}{J. Fisac}, \person{Haimin Hu}{H. Hu}, \person{Somil Bansal}{S. Bansal}, and \person{Jason J. Choi}{J. J. Choi}}{Handbook on Safety Certificates: Techniques from Hamilton--Jacobi Reachability Analysis and Control Barrier Functions}{65th IEEE Conference on Decision and Control (CDC)}{2026}
 			\item {\bf [RA-L'26]}
-			\paperItem{\person{Jaeyoun Choi}{J. Choi}, \person{Oswin So}{O. So}, \person{\me}{\meshort}, \person{Cooper Taylor}{C. Taylor}, and \person{Chuchu Fan}{C. Fan}}{Safe and Scalable Multi-Drone Payload Transport via CBF-based Reinforcement Learning with Zero-Shot Sim-to-Real Transfer}{IEEE Robotics and Automation Letters (RA-L), Early Access}{2026}{\href{https://arxiv.org/abs/2607.20665}{[arXiv]}}
+			\paperItem{\person{Jaeyoun Choi}{J. Choi}, \person{Oswin So}{O. So}, \person{\me}{\meshort}, \person{Cooper Taylor}{C. Taylor}, and \person{Chuchu Fan}{C. Fan}}{Safe and Scalable Multi-Drone Payload Transport via CBF-based Reinforcement Learning with Zero-Shot Sim-to-Real Transfer}{IEEE Robotics and Automation Letters (RA-L)}{2026}{\href{https://arxiv.org/abs/2607.20665}{[arXiv]}}
 			\item {\bf [TIA'26]}
 			\paperItem{\person{Qing Shen}{Q. Shen}, \person{Peng Zhang}{P. Zhang}, \person{\me}{\meshort}, \person{Chuchu Fan}{C. Fan}, \person{Yifan Zhou}{Y. Zhou}, and \person{Yacov A. Shamash}{Y. A. Shamash}}{Hamiltonian Grid-Forming: Methodology and Applications for IBR-Rich Grid Operations}{IEEE Transactions on Industry Applications}{2026}{\href{https://ieeexplore.ieee.org/abstract/document/11626557}{[PDF]}}
 			\item {\bf [ICRA'26]}
@@ -109,7 +111,7 @@
 			\paperItem{\person{Oswin So}{O. So}, \person{Eric Yang Yu}{E. Y. Yu}, \person{\me}{\meshort}, \person{Matthew Cleaveland}{M. Cleaveland}, \person{Mitchell Black}{M. Black}, and \person{Chuchu Fan}{C. Fan}}{Solving Parameter-Robust Avoid Problems with Unknown Feasibility using Reinforcement Learning}{International Conference on Learning Representations (ICLR)}{2026}{\href{https://oswinso.xyz/fge}{[Website]}}
 			\item {\bf [NeurIPS'25]}
 			\paperItem{\person{H. M. Sabbir Ahmad}{H. M. Ahmad}, \person{Ehsan Sabouni}{E. Sabouni}, \person{Alexander Wasilkoff}{A. Wasilkoff}, \person{Param Budhraja}{P. Budhraja}, \person{Zijian Guo}{Z. Guo}, \person{\me}{\meshort}, \person{Chuchu Fan}{C. Fan}, \person{Christos Cassandras}{C. Cassandras}, and \person{Wenchao Li}{W. Li}}{HMARL-CBF -- Hierarchical Multi-Agent Reinforcement Learning with Control Barrier Functions for Safety-Critical Autonomous Systems}{The Thirty-ninth Annual Conference on Neural Information Processing Systems (NeurIPS)}{2025}{\href{https://bu-depend-lab.github.io/HMARL-CBF/}{[Website]}}
-			\item {\bf [RSS'25 (Best Student Paper Award)]}
+			\item {\bf [RSS'25 \textcolor{cvhighlight}{(Best Student Paper Award)}]}
 			\paperItem{\person{\me*}{\meshort}, \person{Oswin So*}{O. So}, \person{Mitchell Black}{M. Black}, \person{Zachary Serlin}{Z. Serlin}, and \person{Chuchu Fan}{C. Fan}}{Solving Multi-Agent Safe Optimal Control with Distributed Epigraph Form MARL}{Proceedings of Robotics: Science and Systems (RSS)}{2025}{\href{https://mit-realm.github.io/def-marl/}{[Website]}}
 			\item {\bf [ICLR'25]}
 			\paperItem{\person{\me}{\meshort}, \person{Oswin So}{O. So}, \person{Mitchell Black}{M. Black}, and \person{Chuchu Fan}{C. Fan}}{Discrete GCBF Proximal Policy Optimization for Multi-agent Safe Optimal Control}{International Conference on Learning Representations (ICLR)}{2025}{\href{https://mit-realm.github.io/dgppo/}{[Website]}}
@@ -129,7 +131,7 @@
 			\paperItem{\person{Lizhi Wang}{L. Wang}, \person{\me}{\meshort}, \person{Yifan Zhou}{Y. Zhou}, \person{Chuchu Fan}{C. Fan}, \person{Peng Zhang}{P. Zhang}, and \person{Yacov A. Shamash}{YA. Shamash}}{Physics-Informed, Safety and Stability Certified Neural Control for Uncertain Networked Microgrids}{IEEE Transactions on Smart Grid}{2023}{\href{https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=10233047}{[PDF]}}
 			\item {\bf [PESGM'23]}
 			\paperItem{\person{Lizhi Wang}{L. Wang}, \person{\me}{\meshort}, \person{Yifan Zhou}{Y. Zhou}, \person{Chuchu Fan}{C. Fan}, \person{Peng Zhang}{P. Zhang}, and \person{Yacov A. Shamash}{YA. Shamash}}{Learning-Based, Safety and Stability-Certified Microgrid Control}{2023 IEEE Power \& Energy Society General Meeting (PESGM)}{2023}{\href{https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=10253396}{[PDF]}}
-			\item {\bf [L4DC'23 (ORAL)]}
+			\item {\bf [L4DC'23 \textcolor{cvhighlight}{(ORAL)}]}
 			\paperItem{\person{\me}{\meshort}, \person{Yumeng Xiu}{Y. Xiu}, \person{Guannan Qu}{G. Qu}, and \person{Chuchu Fan}{C. Fan}}{Compositional Neural Certificates for Networked Dynamical Systems}{5th Annual Learning for Dynamics \& Control Conference (L4DC)}{2023}{\href{https://mit-realm.github.io/neuriss-website/}{[Website]}}
 			\item {\bf [NeurIPS'21]}
 			\paperItem{\person{\me*}{\meshort}, \person{Zhangjie Cao*}{Z. Cao}, \person{Dorsa Sadigh}{D. Sadigh}, and \person{Yanan Sui}{Y. Sui}}{Confidence-Aware Imitation Learning from Demonstrations with Varying Optimality}{Conference on Neural Information Processing Systems}{2021}{\href{https://sites.google.com/view/cail/}{[Website]}}
