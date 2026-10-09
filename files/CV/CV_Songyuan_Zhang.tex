@@ -7,6 +7,8 @@
 \usepackage[inline]{enumitem} 
 \usepackage{graphicx}
 \usepackage{tabularx}
+\usepackage{microtype}
+\hyphenation{Embodied Unitree}
 \definecolor{cvhighlight}{HTML}{C62828}
 \pagestyle{empty}
 
@@ -30,7 +32,7 @@
 
 \newcommand{\tab}[1]{\hspace{.2667\textwidth}\rlap{#1}} 
 \newcommand{\itab}[1]{\hspace{0em}\rlap{#1}}
-\newcommand{\paperItem}[4]{#1. ``#2." \textit{#3}, #4.\space\ignorespaces}% author, title, venue, year; one space before links
+\newcommand{\paperItem}[4]{#1. ``#2.'' \textit{#3}, #4.\space\ignorespaces}% author, title, venue, year; one space before links
 \newcommand{\talktitle}[1]{{``#1",}} %talk title
 \newcommand{\talkplace}[3]{{\textit{#1},~#2,~#3.}} % conference, place, time
 \newcommand{\confItem}[3]{#1~#2~(\textit{#3})} %abrrev, full name, year
@@ -59,48 +61,66 @@
 \name{Songyuan Zhang}
 \address{{\bf LAB:} REALM Lab, MIT Building 31, 70 Vassar St, Cambridge, MA 02139, U.S.}
 % \address{{\bf EMAIL:} \href{mailto:szhang21@mit.edu}{\nolinkurl{szhang21@mit.edu}}}
-\address{{\bf HOMEPAGE:} \href{http://syzhang092218-source.github.io}{http://syzhang092218-source.github.io} \;\;\; {\bf EMAIL:} \href{mailto:szhang21@mit.edu}{\nolinkurl{szhang21@mit.edu}}}
+\address{{\bf HOMEPAGE:} \href{https://syzhang092218-source.github.io}{https://syzhang092218-source.github.io} \;\;\; {\bf EMAIL:} \href{mailto:szhang21@mit.edu}{\nolinkurl{szhang21@mit.edu}}}
 
 \begin{document}
 	\begin{rSection}{RESEARCH INTERESTS}
-		Reinforcement Learning (Online/Offline), Safe Control for Robotics, Generative Models, Imitation Learning, Multi-Agent Systems, Control Theory
+		\raggedright
+		Reinforcement Learning (Online/Offline), Robot Safety, Learning-based Control, Generative Policies, Embodied AI, Humanoid Whole-Body Control, Imitation Learning, Multi-Agent Systems, Control Theory
 	\end{rSection}
 
 	\begin{rSection}{Education} 		
 		% \small
-		\begin{rSubsection2}{Massachusetts Institute of Technology}{Feb. 2024 - Now}{Ph.D. Student at Department of Aeronautics and Astronautics}{Advisor: Prof. Chuchu Fan}
+		\begin{rSubsection2}{Massachusetts Institute of Technology}{Sep. 2021 - May 2027 (expected)}{Ph.D. Student, Department of Aeronautics and Astronautics}{Advisor: Prof. Chuchu Fan}
 		\end{rSubsection2}
 
 		\begin{rSubsection2}{Massachusetts Institute of Technology}{Aug. 2021 - Feb. 2024}{Master of Science in Aeronautics and Astronautics}{Advisor: Prof. Chuchu Fan}
 		\end{rSubsection2} 
 	
-		\begin{rSubsection2}{Tsinghua University}{Sep. 2017 - Jul. 2021}{B.E. in Tsien Excellence in Engineering Program (honored degree)}{\\\rightline{Advisor: Prof. Yanan Sui, Prof. Hao Wu, Prof. Gangtie Zheng}} 
+		\begin{rSubsection2}{Tsinghua University}{Sep. 2017 - Jul. 2021}{B.E. in Tsien Excellence in Engineering Program (honors degree)}{\\\hspace*{\fill}Advisors: Prof. Yanan Sui, Prof. Hao Wu, Prof. Gangtie Zheng}
 		\end{rSubsection2}
-		\vspace{-10pt}
         
-        \begin{rSubsection2}{Stanford University}{Jun. 2020 - July. 2021}{Remote Visiting Scholar in Computer Science}{Advisor: Prof. Dorsa Sadigh}
+        \begin{rSubsection2}{Stanford University}{Jun. 2020 - Jul. 2021}{Remote Visiting Scholar in Computer Science}{Advisor: Prof. Dorsa Sadigh}
 		\end{rSubsection2}
 
-		\begin{rSubsection2}{University of California, Berkeley}{July. 2019 - Sept. 2019}{Visiting Scholar in Mechanical Engineering}{Advisor: Prof. Masayoshi Tomizuka}
-		\end{rSubsection2}
-	\end{rSection}
-
-	\begin{rSection}{Professional Experience}
-		\begin{rSubsection2}{Amazon Industrial Robotics Group}{Summer 2026}{Applied Scientist II Intern}{Project: Humanoid whole body safe control}
+		\begin{rSubsection2}{University of California, Berkeley}{Jul. 2019 - Sep. 2019}{Visiting Scholar in Mechanical Engineering}{Advisor: Prof. Masayoshi Tomizuka}
 		\end{rSubsection2}
 	\end{rSection}
 
+	\begin{rSection}{Research and Professional Experience}
+		\begin{rSubsection2}{Amazon Industrial Robotics Group}{Summer 2026}{Applied Scientist II Intern}{Project: Humanoid Whole-Body Safe Control}
+		\end{rSubsection2}
+		\begin{itemize}[leftmargin=1.2em,topsep=2pt,itemsep=1pt,parsep=0pt,partopsep=0pt]
+			\item Developed FAITH (Feasibility-Aware Safety-Filtered RL for High-Dimensional Systems), a model-free RL framework that separates learned safety filtering from task-policy optimization, allowing the policy to maximize task performance without a competing safety penalty.
+			\item Deployed FAITH on a 29-DoF Unitree G1 humanoid with onboard sensing. Demonstrated walking, push recovery, and falls away from protected regions using a single controller without explicit mode switching.
+		\end{itemize}
+
+		\begin{rSubsection2}{Massachusetts Institute of Technology}{Sep. 2021 - Now}{Doctoral Research}{Thesis: Structured Policy Learning for Reliable Robot Control}
+		\end{rSubsection2}
+		\begin{itemize}[leftmargin=1.2em,topsep=2pt,itemsep=1pt,parsep=0pt,partopsep=0pt]
+			\item Formulated compositional stability certificates (NeurISS) and graph-based safety certificates (GCBF), enabling scalable, distributed control of large-scale multi-agent systems.
+			\item Designed safe multi-agent control and RL algorithms (GCBF+, DGPPO, Def-MARL), scaling to 1,024 agents in simulation and demonstrating collision avoidance and collaborative tasks on Crazyflie drones.
+			\item Developed support-constrained offline RL algorithms (ReFORM, LASER) that optimize flow-based generative policies in latent space, preserving learned action support to mitigate out-of-distribution errors in locomotion and manipulation tasks.
+		\end{itemize}
+	\end{rSection}
+
+	\newpage
 	\begin{rSection}{Publications}
 		% \item[] \textbf{\underline{CONFERENCE}}
 		% \vspace{5pt}
+		\textit{* Equal contribution.}
 		{
-			\setlength{\emergencystretch}{0.5em}
+			\setlength{\emergencystretch}{3em}
+			\interlinepenalty=10000 % Keep each publication on a single page.
+			\item {\bf [Preprint]}
+			{\setlength{\emergencystretch}{2em}
+			\paperItem{\person{\me}{\meshort}, \person{Baljeet Singh}{B. Singh}, \person{Sarthak Ranjeet Kaingade}{S. R. Kaingade}, \person{Chuchu Fan}{C. Fan}, and \person{Bryan Trinh}{B. Trinh}}{FAITH: Feasibility-Aware Safety-Filtered RL for High-Dimensional Systems}{arXiv preprint arXiv:2610.12432}{2026}{\href{https://arxiv.org/abs/2610.12432}{[arXiv]}}\par}
 			\item {\bf [NeurIPS'26]}
 			\paperItem{\person{\me}{\meshort}, \person{Oswin So}{O. So}, \person{Eric Yang Yu}{E. Y. Yu}, \person{Matthew Cleaveland}{M. Cleaveland}, \person{Peter Crowley-Dolen}{P. Crowley-Dolen}, and \person{Chuchu Fan}{C. Fan}}{LASER: Latent Space Adjoint Matching for Support-Constrained Entropy-Regularized Offline RL}{Conference on Neural Information Processing Systems (NeurIPS)}{2026} {\href{https://mit-realm.github.io/laser/}{[Website]}}
 			\item {\bf [CDC'26]}
-			\paperItem{\person{Hao Wang}{H. Wang}, \person{Max Cohen}{M. Cohen}, \person{Zeyuan Feng}{Z. Feng}, \person{David Oh*}{D. Oh}, \person{Oswin So*}{O. So}, \person{\me*}{\meshort}, \person{Javier Borquez}{J. Borquez}, \person{Chuchu Fan}{C. Fan}, \person{Jaime Fisac}{J. Fisac}, \person{Haimin Hu}{H. Hu}, \person{Somil Bansal}{S. Bansal}, and \person{Jason J. Choi}{J. J. Choi}}{Handbook on Safety Certificates: Techniques from Hamilton--Jacobi Reachability Analysis and Control Barrier Functions}{65th IEEE Conference on Decision and Control (CDC)}{2026}
+			\paperItem{\person{Hao Wang}{H. Wang}, \person{Max Cohen}{M. Cohen}, \person{Zeyuan Feng}{Z. Feng}, \person{Donggeon David Oh*}{D. D. Oh}, \person{Oswin So*}{O. So}, \person{\me*}{\meshort}, \person{Javier Borquez}{J. Borquez}, \person{Chuchu Fan}{C. Fan}, \person{Jaime Fern\'andez Fisac}{J. F. Fisac}, \person{Haimin Hu}{H. Hu}, \person{Jason J. Choi}{J. J. Choi}, and \person{Somil Bansal}{S. Bansal}}{Handbook on Safety Certificates: Techniques from Hamilton--Jacobi Reachability Analysis and Control Barrier Functions}{65th IEEE Conference on Decision and Control (CDC)}{2026}
 			\item {\bf [RA-L'26]}
-			\paperItem{\person{Jaeyoun Choi}{J. Choi}, \person{Oswin So}{O. So}, \person{\me}{\meshort}, \person{Cooper Taylor}{C. Taylor}, and \person{Chuchu Fan}{C. Fan}}{Safe and Scalable Multi-Drone Payload Transport via CBF-based Reinforcement Learning with Zero-Shot Sim-to-Real Transfer}{IEEE Robotics and Automation Letters (RA-L)}{2026}{\href{https://arxiv.org/abs/2607.20665}{[arXiv]}}
+			\paperItem{\person{Jaeyoun Choi}{J. Choi}, \person{Oswin So}{O. So}, \person{\me}{\meshort}, \person{Cooper Taylor}{C. Taylor}, and \person{Chuchu Fan}{C. Fan}}{Safe and Scalable Multi-Drone Payload Transport via CBF-based Reinforcement Learning with Zero-Shot Sim-to-Real Transfer}{IEEE Robotics and Automation Letters (RA-L)}{2026}{\href{https://ieeexplore.ieee.org/abstract/document/11614755}{[PDF]}}
 			\item {\bf [TIA'26]}
 			\paperItem{\person{Qing Shen}{Q. Shen}, \person{Peng Zhang}{P. Zhang}, \person{\me}{\meshort}, \person{Chuchu Fan}{C. Fan}, \person{Yifan Zhou}{Y. Zhou}, and \person{Yacov A. Shamash}{Y. A. Shamash}}{Hamiltonian Grid-Forming: Methodology and Applications for IBR-Rich Grid Operations}{IEEE Transactions on Industry Applications}{2026}{\href{https://ieeexplore.ieee.org/abstract/document/11626557}{[PDF]}}
 			\item {\bf [ICRA'26]}
@@ -111,14 +131,14 @@
 			\paperItem{\person{Oswin So}{O. So}, \person{Eric Yang Yu}{E. Y. Yu}, \person{\me}{\meshort}, \person{Matthew Cleaveland}{M. Cleaveland}, \person{Mitchell Black}{M. Black}, and \person{Chuchu Fan}{C. Fan}}{Solving Parameter-Robust Avoid Problems with Unknown Feasibility using Reinforcement Learning}{International Conference on Learning Representations (ICLR)}{2026}{\href{https://oswinso.xyz/fge}{[Website]}}
 			\item {\bf [NeurIPS'25]}
 			\paperItem{\person{H. M. Sabbir Ahmad}{H. M. Ahmad}, \person{Ehsan Sabouni}{E. Sabouni}, \person{Alexander Wasilkoff}{A. Wasilkoff}, \person{Param Budhraja}{P. Budhraja}, \person{Zijian Guo}{Z. Guo}, \person{\me}{\meshort}, \person{Chuchu Fan}{C. Fan}, \person{Christos Cassandras}{C. Cassandras}, and \person{Wenchao Li}{W. Li}}{HMARL-CBF -- Hierarchical Multi-Agent Reinforcement Learning with Control Barrier Functions for Safety-Critical Autonomous Systems}{The Thirty-ninth Annual Conference on Neural Information Processing Systems (NeurIPS)}{2025}{\href{https://bu-depend-lab.github.io/HMARL-CBF/}{[Website]}}
-			\item {\bf [RSS'25 \textcolor{cvhighlight}{(Best Student Paper Award)}]}
+			\item {\bf [RSS'25 \textcolor{cvhighlight}{(Outstanding Student Paper Award)}]}
 			\paperItem{\person{\me*}{\meshort}, \person{Oswin So*}{O. So}, \person{Mitchell Black}{M. Black}, \person{Zachary Serlin}{Z. Serlin}, and \person{Chuchu Fan}{C. Fan}}{Solving Multi-Agent Safe Optimal Control with Distributed Epigraph Form MARL}{Proceedings of Robotics: Science and Systems (RSS)}{2025}{\href{https://mit-realm.github.io/def-marl/}{[Website]}}
 			\item {\bf [ICLR'25]}
 			\paperItem{\person{\me}{\meshort}, \person{Oswin So}{O. So}, \person{Mitchell Black}{M. Black}, and \person{Chuchu Fan}{C. Fan}}{Discrete GCBF Proximal Policy Optimization for Multi-agent Safe Optimal Control}{International Conference on Learning Representations (ICLR)}{2025}{\href{https://mit-realm.github.io/dgppo/}{[Website]}}
 			\item {\bf [T-RO'25]}
 			\paperItem{\person{\me*}{\meshort}, \person{Oswin So*}{O. So}, \person{Kunal Garg}{K. Garg}, and \person{Chuchu Fan}{C. Fan}}{GCBF+: A Neural Graph Control Barrier Function Framework for Distributed Safe Multi-Agent Control}{IEEE Transactions on Robotics}{2025}{\href{https://mit-realm.github.io/gcbfplus/}{[Website]}}
 			\item {\bf [L4DC'24]}
-			\paperItem{\person{\me}{\meshort}, and \person{Chuchu Fan}{C. Fan}}{Learning to stabilize high-dimensional unknown systems using Lyapunov-guided exploration}{6th Annual Learning for Dynamics \& Control Conference (L4DC)}{2024}{\href{https://mit-realm.github.io/lyge-website/}{[Website]}}
+			\paperItem{\person{\me}{\meshort} and \person{Chuchu Fan}{C. Fan}}{Learning to stabilize high-dimensional unknown systems using Lyapunov-guided exploration}{6th Annual Learning for Dynamics \& Control Conference (L4DC)}{2024}{\href{https://mit-realm.github.io/lyge-website/}{[Website]}}
 			\item {\bf [ARC'24]}
 			\paperItem{\person{Kunal Garg}{K. Garg}, \person{\me}{\meshort}, \person{Oswin So}{O. So}, \person{Charles Dawson}{C. Dawson}, and \person{Chuchu Fan}{C. Fan}}{Learning Safe Control for Multi-Robot Systems: Methods, Verification, and Open Challenges}{Annual Reviews in Control}{2024}{\href{https://arxiv.org/abs/2311.13714}{[arXiv]}}
 			% \item {\bf [DASC'24]}
@@ -138,12 +158,11 @@
 		}
 	\end{rSection}
 
-	\newpage
 	\begin{rSection}{Honors and Awards} {} \itemsep -2pt {}  
 		% \small
 		\item 2025-2026 Schwarzman College of Computing Amazon AI Research Innovation Fellowship \hfill{2025}
-		\item Best Student Paper Award of Robotics: Science and Systems (RSS) 2025 \hfill{2025}
-		\item Best Paper Award Finalist of Robotics: Science and Systems (RSS) 2025 \hfill{2025}
+		\item Outstanding Student Paper Award, Robotics: Science and Systems (RSS) \hfill{2025}
+		\item Outstanding Paper Award Finalist, Robotics: Science and Systems (RSS) \hfill{2025}
 		\item Outstanding Graduate of Tsinghua University \hfill{2021}
 		\item Outstanding Graduate of Beijing \hfill{2021}
 		\item Outstanding Graduate of Scientific Research at TEEP \hfill{2021}
@@ -155,11 +174,13 @@
 		\item First Prize in "Challenge Cup" Science and Technology Competition of Tsinghua University \hfill{2019}
 	\end{rSection}
 
-	\begin{rSection}{ACADEMIC SERVICES}
+	\begin{rSection}{Academic \& Professional Service}
+		\interlinepenalty=10000 % Keep individual service entries together across pages.
 		\item \textbf{Workshop Organizing Committee Member:} \href{https://haowwang.github.io/cdc26_safety_workshop/}{Workshop on Safety Analysis for Autonomous System: Practical Perspectives and Recent Advances}, 65th IEEE Conference on Decision and Control (CDC), 2026
+		\item \textbf{Panel Moderator:} \href{https://luma.com/u8j9b0a6}{Robotics $\times$ Physical AI Founder-Investor Summit} -- Academia panel on frontier research, world models, and safe autonomy (July 2026)
 		\item \textbf{Journal Reviewer:} \\IEEE Transactions on Robotics (T-RO), IEEE Transactions on Automatic Control (T-AC), Automatica, Annual Reviews in Control (ARC), IEEE Open Journal of Control Systems (OJ-CSYS), IEEE Robotics and Automation Letters (RA-L), IEEE Transactions on Cybernetics (T-CYB), IEEE Transactions on Control Systems Technology (TCST)
 		\item \textbf{Conference Reviewer:} \\NeurIPS, ICLR, ICML, RSS, CoRL, ICRA, L4DC, IROS, AAAI, AISTATS, CDC, ACC, NeuS, NFM, DARS, RV, TACAS, ANTS, CCTA
-		\item \textbf{Teaching Assistant} at Tsinghua University: X-idea (2021 Spring)
+		\item \textbf{Teaching Assistant:} X-idea, Tsinghua University (Spring 2021)
 	\end{rSection}
 
 	\begin{rSection}{LEADERSHIP \& MEMBERSHIP}
