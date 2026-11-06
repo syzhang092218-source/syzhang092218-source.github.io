@@ -24,7 +24,7 @@ Besides research, I enjoy traveling, hiking, photography, skiing, badminton, and
 ## News
 
 - **Sep 24, 2026**: Our paper [LASER: Latent Space Adjoint Matching for Support-Constrained Entropy-Regularized Offline RL](https://mit-realm.github.io/laser/) is accepted by NeurIPS 2026!
-- **Jul 15, 2026**: Our paper "Handbook on Safety Certificates: Techniques from Hamilton-Jacobi Reachability Analysis and Control Barrier Functions" is accepted by the 2026 65th IEEE Conference on Decision and Control (CDC)! 
+- **Jul 15, 2026**: Our paper [Unified Overview of Safety Certificate Functions: Techniques from Hamilton&ndash;Jacobi Reachability and Control Barrier Functions](https://arxiv.org/abs/2611.07537) is accepted by the 2026 65th IEEE Conference on Decision and Control (CDC)!
 - **Jul 11, 2026**: Our paper [Safe and Scalable Multi-Drone Payload Transport via CBF-based Reinforcement Learning with Zero-Shot Sim-to-Real Transfer](https://arxiv.org/abs/2607.20665) is accepted by IEEE Robotics and Automation Letters (RA-L)!
 - **Jun 23, 2026**: Our paper [Hamiltonian Grid-Forming: Methodology and Applications for IBR-Rich Grid Operations](https://ieeexplore.ieee.org/abstract/document/11626557) is accepted by IEEE Transactions on Industry Applications!
 - **Jan 31, 2026**: Our paper [Beyond Waypoints: Semantic-Centric Autonomy with Unreliable Maps Through Learned Abstractions](https://ieeexplore.ieee.org/abstract/document/11696272) is accepted by ICRA 2026!
